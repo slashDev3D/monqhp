@@ -1,0 +1,1879 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-style: normal;
+  font-weight: 100;
+  src: url(../font/AppleSDGothicNeoT.woff2) format("woff2"), url(../font/AppleSDGothicNeoT.woff) format("woff"), url(../font/AppleSDGothicNeoT.otf) format("opentype");
+}
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-style: normal;
+  font-weight: 200;
+  src: url(../font/AppleSDGothicNeoUL.woff2) format("woff2"), url(../font/AppleSDGothicNeoUL.woff) format("woff"), url(../font/AppleSDGothicNeoUL.otf) format("opentype");
+}
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/AppleSDGothicNeoL.woff2) format("woff2"), url(../font/AppleSDGothicNeoL.woff) format("woff"), url(../font/AppleSDGothicNeoL.otf) format("opentype");
+}
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/AppleSDGothicNeoR.woff2) format("woff2"), url(../font/AppleSDGothicNeoR.woff) format("woff"), url(../font/AppleSDGothicNeoR.otf) format("opentype");
+}
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-style: normal;
+  font-weight: 500;
+  src: url(../font/AppleSDGothicNeoM.woff2) format("woff2"), url(../font/AppleSDGothicNeoM.woff) format("woff"), url(../font/AppleSDGothicNeoM.otf) format("opentype");
+}
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../font/AppleSDGothicNeoSB.woff2) format("woff2"), url(../font/AppleSDGothicNeoSB.woff) format("woff"), url(../font/AppleSDGothicNeoSB.otf) format("opentype");
+}
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../font/AppleSDGothicNeoB.woff2) format("woff2"), url(../font/AppleSDGothicNeoB.woff) format("woff"), url(../font/AppleSDGothicNeoB.otf) format("opentype");
+}
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-style: normal;
+  font-weight: 800;
+  src: url(../font/AppleSDGothicNeoEB.woff2) format("woff2"), url(../font/AppleSDGothicNeoEB.woff) format("woff"), url(../font/AppleSDGothicNeoEB.otf) format("opentype");
+}
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-style: normal;
+  font-weight: 900;
+  src: url(../font/AppleSDGothicNeoH.woff2) format("woff2"), url(../font/AppleSDGothicNeoH.woff) format("woff"), url(../font/AppleSDGothicNeoH.otf) format("opentype");
+}
+/***********************/
+/***********************/
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 100;
+  src: url(../font/NotoSansKR-Thin.woff2) format("woff2"), url(../font/NotoSansKR-Thin.woff) format("woff"), url(../font/NotoSansKR-Thin.otf) format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 200;
+  src: url(../font/NotoSansKR-DemiLight.woff2) format("woff2"), url(../font/NotoSansKR-DemiLight.woff) format("woff"), url(../font/NotoSansKR-DemiLight.otf) format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/NotoSansKR-Light.woff2) format("woff2"), url(../font/NotoSansKR-Light.woff) format("woff"), url(../font/NotoSansKR-Light.otf) format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/NotoSansKR-Regular.woff2) format("woff2"), url(../font/NotoSansKR-Regular.woff) format("woff"), url(../font/NotoSansKR-Regular.otf) format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  src: url(../font/NotoSansKR-Medium.woff2) format("woff2"), url(../font/NotoSansKR-Medium.woff) format("woff"), url(../font/NotoSansKR-Medium.otf) format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../font/NotoSansKR-Bold.woff2) format("woff2"), url(../font/NotoSansKR-Bold.woff) format("woff"), url(../font/NotoSansKR-Bold.otf) format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 900;
+  src: url(../font/NotoSansKR-Black.woff2) format("woff2"), url(../font/NotoSansKR-Black.woff) format("woff"), url(../font/NotoSansKR-Black.otf) format("opentype");
+}
+@-webkit-keyframes titleAnimation {
+  0% {
+    transform: translateY(200px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes titleAnimation {
+  0% {
+    transform: translateY(200px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes titleAnimationRev {
+  0% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(200px);
+    opacity: 1;
+  }
+}
+@keyframes titleAnimationRev {
+  0% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(200px);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fromLeft {
+  0% {
+    transform: translate(-100%, 0%);
+  }
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+@keyframes fromLeft {
+  0% {
+    transform: translate(-100%, 0%);
+  }
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+@-webkit-keyframes toLeft {
+  0% {
+    transform: translate(0%, 0%);
+  }
+  100% {
+    transform: translate(-100%, 0%);
+  }
+}
+@keyframes toLeft {
+  0% {
+    transform: translate(0%, 0%);
+  }
+  100% {
+    transform: translate(-100%, 0%);
+  }
+}
+.b70 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.b20 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  width: 30%;
+  height: 100%;
+  background-color: #000;
+  position: absolute;
+  right: 0;
+}
+
+.footer .footerWrap {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.footer .footerWrap div.memo {
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  font-weight: 200;
+  font-size: 21px;
+  font-style: italic;
+}
+
+.footer .footerWrap div.memo b {
+  font-family: Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.footer .footerWrap a {
+  margin-top: 32px;
+  display: block;
+}
+
+.footer .footerWrap a .footerTitle {
+  transition-duration: 0.3s;
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5vw;
+  line-height: 5vw;
+  font-weight: 600;
+}
+
+.footer .footerWrap a:hover .footerTitle {
+  color: #c40c1a;
+}
+
+.footer .footerWrap .copyright {
+  margin-top: 60px;
+  font-size: 16px;
+  color: #999999;
+}
+
+.content {
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition-duration: 0.9s;
+  transition-timing-function: cubic-bezier(0.84, 0.01, 0.2, 1.01);
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  position: absolute;
+}
+.content.on {
+  left: -30%;
+}
+.content .contentWrap {
+  width: 100%;
+  height: 100%;
+}
+.content .contentWrap .sect {
+  transition-duration: 1.2s;
+  transition-timing-function: cubic-bezier(0.65, 0.02, 0.25, 1);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.content .contentWrap .sect .sectWrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.content .contentWrap .sect .sectWrap .bg {
+  width: 100%;
+  height: 100%;
+}
+.content .contentWrap .sect .sectWrap div.sectTitle {
+  position: absolute;
+  transform: translate(0%, -50%);
+  top: 50%;
+  left: 16%;
+}
+.content .contentWrap .sect .sectWrap div.sectTitle div.memo {
+  position: relative;
+  overflow: hidden;
+}
+.content .contentWrap .sect .sectWrap div.sectTitle div.memo b {
+  font-style: normal;
+  color: #ffffff;
+  font-weight: 500;
+}
+.content .contentWrap .sect .sectWrap div.sectTitle div.memo .real {
+  transform: translate(-100%, 0%);
+  -webkit-animation: 0.9s 0s fromLeft cubic-bezier(0.09, 0.6, 0.25, 1) forwards;
+          animation: 0.9s 0s fromLeft cubic-bezier(0.09, 0.6, 0.25, 1) forwards;
+  top: 0;
+  position: absolute;
+}
+.content .contentWrap .sect .sectWrap div.sectTitle div.titleLine p {
+  font-weight: 600;
+  display: flex;
+  font-family: aktiv-grotesk, sans-serif;
+}
+.content .contentWrap .sect .sectWrap div.sectTitle div.titleLine p b {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 1em;
+}
+.content .contentWrap .sect .sectWrap div.sectTitle div.titleLine {
+  color: #ffffff;
+  font-size: 90px;
+  display: flex;
+  padding: 4px 0;
+  letter-spacing: -2px;
+}
+.content .contentWrap .sect .sectWrap div.sectTitle div.titleLine div.small {
+  font-size: 16px;
+}
+.content .contentWrap .sect .sectWrap div.sectTitle div.titleLine div.small p {
+  font-weight: bold;
+  margin-left: 67px;
+  padding-top: 34px;
+  width: 100%;
+  height: 100%;
+  line-height: 24px;
+  font-weight: 200;
+  font-family: "AppleSDGothicNeo";
+}
+.content .contentWrap .sect .sectWrap div.sectTitle div.titleLine div.small p b {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 100;
+  margin-left: 12px;
+}
+.content .contentWrap .sect.sect1 {
+  transition-duration: 0s;
+  left: 0%;
+}
+.content .contentWrap .sect.sect1 .sectWrap .bg {
+  transition-duration: 0.6s;
+  background-image: url(../img/main_bg1.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  transform: translateY(0%) scale(1.1);
+}
+.content .contentWrap .sect.sect1 .sectWrap .whiteBg {
+  transition-delay: 1.2s;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  right: 0%;
+}
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle {
+  transition-delay: 1.2s;
+  transition-duration: 0.1s;
+  opacity: 0;
+}
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.memo {
+  color: #999999;
+  font-style: italic;
+  font-weight: 200;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  margin-bottom: 28px;
+}
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.memo b {
+  font-family: "aktiv-grotesk";
+}
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.titleLine {
+  position: relative;
+  overflow: hidden;
+  margin-top: -6px;
+}
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.titleLine .real {
+  top: 0;
+  position: absolute;
+  -webkit-animation: 0.6s titleAnimation ease forwards;
+          animation: 0.6s titleAnimation ease forwards;
+}
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.titleLine p, .content .contentWrap .sect.sect1 .sectWrap div.titleLine b {
+  transform: translateY(0px);
+}
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.titleLine p {
+  font-weight: 600;
+  opacity: 0;
+}
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.titleLine b {
+  margin-left: 2vw;
+}
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.titleLine:nth-of-type(2) p {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.titleLine:nth-of-type(2) b {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.titleLine:nth-of-type(3) p {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.titleLine:nth-of-type(3) b {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.titleLine:nth-of-type(4) p {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.titleLine:nth-of-type(4) b {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.titleLine div.small {
+  position: relative;
+  letter-spacing: 1px;
+}
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.titleLine div.small p {
+  -webkit-animation: 0.6s 0.5s titleAnimation ease forwards;
+          animation: 0.6s 0.5s titleAnimation ease forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap .bg {
+  transition-duration: 0s;
+  transform: translateY(0%) scale(1);
+}
+.content .contentWrap .sect.sect1.on .sectWrap .whiteBg {
+  transition-delay: 0s;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  right: -100%;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle {
+  transition-delay: 0s;
+  transition-duration: 0s;
+  opacity: 1;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine {
+  position: relative;
+  overflow: hidden;
+  margin-top: -6px;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine .real {
+  transform: translateY(200px);
+  top: 0;
+  position: absolute;
+  -webkit-animation: 0.6s titleAnimation ease forwards;
+          animation: 0.6s titleAnimation ease forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine p {
+  opacity: 0;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine:nth-of-type(2) p {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine:nth-of-type(2) b {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine:nth-of-type(3) p {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine:nth-of-type(3) b {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine:nth-of-type(4) p {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine:nth-of-type(4) b {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine div.small {
+  position: relative;
+  letter-spacing: 1px;
+  font-weight: 200 !important;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine div.small p {
+  -webkit-animation: 0.6s 0.5s titleAnimation ease forwards;
+          animation: 0.6s 0.5s titleAnimation ease forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.memo {
+  opacity: 1;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(1) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(0.4s + 0.0833333333s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(0.4s + 0.0833333333s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(2) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(0.4s + 0.1666666667s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(0.4s + 0.1666666667s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(3) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(0.4s + 0.25s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(0.4s + 0.25s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(4) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(0.4s + 0.3333333333s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(0.4s + 0.3333333333s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(5) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(0.4s + 0.4166666667s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(0.4s + 0.4166666667s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(6) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(0.4s + 0.5s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(0.4s + 0.5s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(7) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(0.4s + 0.5833333333s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(0.4s + 0.5833333333s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(8) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(0.4s + 0.6666666667s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(0.4s + 0.6666666667s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(9) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(0.4s + 0.75s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(0.4s + 0.75s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(10) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(0.4s + 0.8333333333s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(0.4s + 0.8333333333s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(11) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(0.4s + 0.9166666667s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(0.4s + 0.9166666667s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(12) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(0.4s + 1s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(0.4s + 1s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(1) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(1.2s + 0.0833333333s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(1.2s + 0.0833333333s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(2) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(1.2s + 0.1666666667s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(1.2s + 0.1666666667s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(3) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(1.2s + 0.25s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(1.2s + 0.25s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(4) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(1.2s + 0.3333333333s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(1.2s + 0.3333333333s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(5) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(1.2s + 0.4166666667s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(1.2s + 0.4166666667s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(6) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(1.2s + 0.5s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(1.2s + 0.5s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(7) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(1.2s + 0.5833333333s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(1.2s + 0.5833333333s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(8) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(1.2s + 0.6666666667s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(1.2s + 0.6666666667s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(9) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(1.2s + 0.75s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(1.2s + 0.75s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(10) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(1.2s + 0.8333333333s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(1.2s + 0.8333333333s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(11) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(1.2s + 0.9166666667s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(1.2s + 0.9166666667s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(12) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s calc(1.2s + 1s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+          animation: 0.6s calc(1.2s + 1s) titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;
+}
+.content .contentWrap .sect.sect2 {
+  left: 100%;
+  background-color: rgb(0, 0, 0);
+}
+.content .contentWrap .sect.sect2 .sectWrap {
+  z-index: 9999;
+  position: relative;
+}
+.content .contentWrap .sect.sect2 .sectWrap div.sectTitle {
+  position: absolute;
+  transition-duration: 0.4s;
+  opacity: 0;
+}
+.content .contentWrap .sect.sect2 .sectWrap div.sectTitle .titleLine {
+  overflow: hidden;
+}
+.content .contentWrap .sect.sect2 .sectWrap div.sectTitle .titleLine p {
+  transition-duration: 1.2s;
+  transition-delay: 0.6s;
+  font-size: 130px;
+}
+.content .contentWrap .sect.sect2 .sectWrap div.sectTitle .titleLine .fake {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(0%, 0%);
+}
+.content .contentWrap .sect.sect2 .sectWrap .bg {
+  transition-duration: 0.1s;
+  transition-delay: 1.2s;
+  position: absolute;
+  transform: translate(-50%, 0);
+  left: 50%;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 0.5px solid rgba(0, 0, 0, 0);
+}
+.content .contentWrap .sect.sect2 .sectWrap .bg::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0%;
+  background-color: #e0b13d;
+  transition-duration: 0.3s;
+}
+.content .contentWrap .sect.sect2 .sectWrap .bg img {
+  height: 100%;
+  transition-duration: 0.1s;
+  transition-delay: 1.2s;
+  position: fixed;
+  transform: translate(-50%, 0);
+  top: 0;
+  left: 50%;
+}
+.content .contentWrap .sect.sect2.on {
+  left: 0%;
+}
+.content .contentWrap .sect.sect2.on .sectWrap div.sectTitle {
+  position: fixed;
+  opacity: 1;
+  transition-delay: 0.9s;
+  transition-duration: 0.9s;
+}
+.content .contentWrap .sect.sect2.on .sectWrap div.sectTitle .titleLine p {
+  font-size: 180px;
+  transition-duration: 1.2s;
+  transition-delay: 0s;
+  transition-timing-function: cubic-bezier(0.65, 0.02, 0.25, 1);
+}
+.content .contentWrap .sect.sect2.on .sectWrap .bg {
+  background-size: 300%;
+  left: 50%;
+  transition-duration: 0.9s;
+  transition-delay: 1.2s;
+  width: 30%;
+  height: 80%;
+}
+.content .contentWrap .sect.sect2.on .sectWrap .bg img {
+  transition-duration: 0.9s;
+  transition-delay: 1.2s;
+}
+.content .contentWrap .sect.sect2.showWithus {
+  left: 0%;
+  width: 67%;
+  transition-delay: 0.3s;
+}
+.content .contentWrap .sect.sect2.showWithus .sectWrap div.sectTitle {
+  position: fixed;
+  opacity: 1;
+  top: 119px;
+}
+.content .contentWrap .sect.sect2.showWithus .sectWrap div.sectTitle .titleLine p {
+  font-size: 92px;
+  transition-duration: 0.6s;
+  transition-timing-function: cubic-bezier(0.65, 0.02, 0.25, 1);
+}
+.content .contentWrap .sect.sect2.showWithus .sectWrap .bg {
+  left: 50%;
+  transition: 0.6s;
+  transition-delay: 0.3s;
+  transform: translate(-50%, 0);
+  width: 30%;
+  height: 80%;
+  top: -100%;
+}
+.content .contentWrap .sect.sect2.showWithus .sectWrap .bg img {
+  transition-duration: 0.9s;
+  transition-delay: 1.2s;
+}
+.content .contentWrap .sect.sect2.showWithus .sectWrap .bg::after {
+  content: "";
+  height: 100%;
+}
+.content .contentWrap .sect.sect2.off {
+  left: -100%;
+}
+.content .contentWrap .sect.sect2.off div.sectTitle {
+  position: fixed;
+  opacity: 1;
+  top: 119px;
+}
+.content .contentWrap .sect.sect2.off div.sectTitle .titleLine p {
+  font-size: 92px;
+  transition-duration: 0.6s;
+  transition-timing-function: cubic-bezier(0.65, 0.02, 0.25, 1);
+}
+.content .contentWrap .sect.sect2.off div.sectTitle .titleLine p.real {
+  transform: translate(-100%, 0%);
+  -webkit-animation: 0.6s 0s toLeft forwards;
+          animation: 0.6s 0s toLeft forwards;
+}
+.content .contentWrap .sect.sect2.off .sectWrap .bg {
+  top: -100%;
+}
+.content .contentWrap .sect.sect3 {
+  z-index: 9999;
+  background-color: rgba(255, 255, 255, 0);
+  right: -100%;
+  transition-delay: 0.6s;
+}
+.content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle1 {
+  transform: translate(0%, 0%);
+  left: 16%;
+  top: 208px;
+}
+.content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle2 {
+  left: 16%;
+  top: 408px;
+}
+.content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle {
+  z-index: 10000;
+  color: white;
+  position: absolute;
+  font-size: 28px;
+  font-family: "aktiv-grotesk", "AppleSDGothicNeo";
+  font-weight: 700;
+}
+.content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle span {
+  display: block;
+}
+.content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle span.real {
+  position: absolute;
+  transition-delay: 0s;
+  transition-duration: 0.6s;
+  bottom: 0%;
+}
+.content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle p {
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  position: relative;
+  overflow: hidden;
+}
+.content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle p span.real {
+  transform: translate(0%, 100%);
+}
+.content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle .small {
+  font-family: "aktiv-grotesk", "AppleSDGothicNeo";
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -1px;
+  color: #999999;
+  position: relative;
+  overflow: hidden;
+  letter-spacing: -1.1px;
+}
+.content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle .small span.real {
+  transform: translate(-100%, 0%);
+}
+.content .contentWrap .sect.sect3 .sectWrap .videoContent {
+  position: absolute;
+  z-index: 9999;
+  left: 50%;
+  top: 219px;
+  width: 45%;
+  max-width: 1100px;
+  height: 30vw;
+  max-height: 600px;
+}
+.content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoContainer {
+  transition-delay: 0s;
+  transition-duration: 0.6s;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: translate(0%, 100%);
+  background-color: #fff;
+}
+.content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoContainer .videoThumb {
+  transition-duration: 0.3s;
+  filter: grayscale(100%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(/img/video_thumb.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoContainer a {
+  z-index: 19999;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoContainer a .icon_play {
+  transition-duration: 0.7s;
+  transform: translate(-50%, -50%) scale(1);
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoContainer a svg {
+  transition-delay: 2.7s;
+  transition-duration: 0.3s;
+  opacity: 0;
+}
+.content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoContainer a svg .cls-1 {
+  transition-duration: 0.6s;
+  fill: #ffffff;
+}
+.content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoName {
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  color: black;
+  text-align: right;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoName .real {
+  position: absolute;
+  transform: translate(0%, 100%);
+  transition-delay: 0s;
+  transition-duration: 0.6s;
+}
+.content .contentWrap .sect.sect3.on {
+  transition-delay: 0s;
+  right: 0%;
+}
+.content .contentWrap .sect.sect3.on .sectWrap div.sectSubTitle1 p span.real {
+  transition-delay: 1.2s;
+  transition-duration: 0.6s;
+  transform: translate(0%, 0%);
+}
+.content .contentWrap .sect.sect3.on .sectWrap div.sectSubTitle1 .small span.real {
+  transition-delay: 1.2s;
+  transition-duration: 0.6s;
+  transform: translate(0%, 0%);
+}
+.content .contentWrap .sect.sect3.on .sectWrap div.sectSubTitle2 p span.real {
+  transition-delay: 1.5s;
+  transition-duration: 0.6s;
+  transform: translate(0%, 0%);
+}
+.content .contentWrap .sect.sect3.on .sectWrap div.sectSubTitle2 .small span.real {
+  transition-delay: 1.5s;
+  transition-duration: 0.6s;
+  transform: translate(0%, 0%);
+}
+.content .contentWrap .sect.sect3.on .sectWrap .videoContent .videoWrap .videoContainer {
+  transition-delay: 1.8s;
+  transition-duration: 0.9s;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: translate(0%, 0%);
+}
+.content .contentWrap .sect.sect3.on .sectWrap .videoContent .videoWrap .videoContainer a svg {
+  opacity: 1;
+}
+.content .contentWrap .sect.sect3.on .sectWrap .videoContent .videoWrap .videoContainer a svg .cls-1 {
+  fill: #ffffff;
+}
+.content .contentWrap .sect.sect3.on .sectWrap .videoContent .videoWrap .videoContainer.on .videoThumb {
+  filter: grayscale(20%);
+}
+.content .contentWrap .sect.sect3.on .sectWrap .videoContent .videoWrap .videoContainer.on a .icon_play {
+  transform: translate(-50%, -50%) scale(1.2);
+}
+.content .contentWrap .sect.sect3.on .sectWrap .videoContent .videoWrap .videoContainer.on a svg .cls-1 {
+  fill: #000000;
+}
+.content .contentWrap .sect.sect3.on .sectWrap .videoContent .videoWrap .videoName .real {
+  transition-delay: 1.8s;
+  transition-duration: 0.3s;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: translate(0%, 0%);
+}
+.content .contentWrap .sect.sect4 {
+  right: -100%;
+  transition-delay: 0.6s;
+  transition-duration: 0s;
+}
+.content .contentWrap .sect.sect4 .sectSubTitle {
+  position: absolute;
+  top: 210px;
+  left: 16%;
+  width: 68%;
+  font-size: 24px;
+  overflow: hidden;
+  line-height: 36px;
+}
+.content .contentWrap .sect.sect4 .sectSubTitle p {
+  color: #999;
+  transition-duration: 0.3s;
+  transition-delay: 0s;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+.content .contentWrap .sect.sect4 .sectSubTitle p b {
+  font-family: "aktiv-grotesk", "AppleSDGothicNeo";
+  font-weight: bold;
+  color: #000;
+  font-style: normal;
+}
+.content .contentWrap .sect.sect4 .sectSubTitle p.real {
+  transition-duration: 0.6s;
+  transition-delay: 0s;
+  position: absolute;
+  transform: translate(-100%, 0%);
+}
+.content .contentWrap .sect.sect4 .sectTitle {
+  z-index: 9996;
+  position: absolute;
+  left: 16%;
+  top: auto;
+  bottom: 110px;
+  overflow: hidden;
+}
+.content .contentWrap .sect.sect4 .sectTitle .titleLine div {
+  display: flex;
+  color: #000;
+  font-size: 180px;
+  font-weight: 600;
+}
+.content .contentWrap .sect.sect4 .sectTitle .titleLine div b {
+  font-style: italic;
+  font-weight: 100;
+  font-family: "Times New Roman", Times, serif;
+}
+.content .contentWrap .sect.sect4 .sectTitle .titleLine div.real {
+  transition-duration: 0.9s;
+  transition-delay: 0.3s;
+  position: absolute;
+  transform: translate(0%, 100%);
+}
+.content .contentWrap .sect.sect4 .sectTitle .titleLine div.real .wordSplit span:nth-child(1) {
+  display: inline-block;
+  transform: translateY(0px);
+  -webkit-animation: 0.6s 0.1s titleAnimationRev ease forwards;
+          animation: 0.6s 0.1s titleAnimationRev ease forwards;
+}
+.content .contentWrap .sect.sect4 .sectTitle .titleLine div.real .wordSplit span:nth-child(2) {
+  display: inline-block;
+  transform: translateY(0px);
+  -webkit-animation: 0.6s 0.2s titleAnimationRev ease forwards;
+          animation: 0.6s 0.2s titleAnimationRev ease forwards;
+}
+.content .contentWrap .sect.sect4 .sectTitle .titleLine div.real .wordSplit span:nth-child(3) {
+  display: inline-block;
+  transform: translateY(0px);
+  -webkit-animation: 0.6s 0.3s titleAnimationRev ease forwards;
+          animation: 0.6s 0.3s titleAnimationRev ease forwards;
+}
+.content .contentWrap .sect.sect4 .sectTitle .titleLine div.real .wordSplit span:nth-child(4) {
+  display: inline-block;
+  transform: translateY(0px);
+  -webkit-animation: 0.6s 0.4s titleAnimationRev ease forwards;
+          animation: 0.6s 0.4s titleAnimationRev ease forwards;
+}
+.content .contentWrap .sect.sect4.on {
+  right: 0%;
+  transition-delay: 0s;
+  transition-duration: 0s;
+}
+.content .contentWrap .sect.sect4.on .sectSubTitle p {
+  transition-duration: 0.9s;
+  transition-delay: 0.6s;
+  transition-timing-function: cubic-bezier(0.1, 0.62, 0.48, 0.99);
+}
+.content .contentWrap .sect.sect4.on .sectSubTitle p.real {
+  transform: translate(0%, 0%);
+}
+.content .contentWrap .sect.sect4.on .sectTitle .titleLine div.real {
+  transition-duration: 0.9s;
+  transition-delay: 0.6s;
+  transition-timing-function: cubic-bezier(0.65, 0.02, 0.25, 1);
+  transform: translate(0%, 0%);
+}
+.content .contentWrap .sect.sect4.on .sectTitle .titleLine div.real .wordSplit span:nth-child(1) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s 0.725s titleAnimation ease forwards;
+          animation: 0.6s 0.725s titleAnimation ease forwards;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+.content .contentWrap .sect.sect4.on .sectTitle .titleLine div.real .wordSplit span:nth-child(2) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s 0.85s titleAnimation ease forwards;
+          animation: 0.6s 0.85s titleAnimation ease forwards;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+.content .contentWrap .sect.sect4.on .sectTitle .titleLine div.real .wordSplit span:nth-child(3) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s 0.975s titleAnimation ease forwards;
+          animation: 0.6s 0.975s titleAnimation ease forwards;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+.content .contentWrap .sect.sect4.on .sectTitle .titleLine div.real .wordSplit span:nth-child(4) {
+  display: inline-block;
+  transform: translateY(200px);
+  -webkit-animation: 0.6s 1.1s titleAnimation ease forwards;
+          animation: 0.6s 1.1s titleAnimation ease forwards;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+.content .contentWrap .sect.sect5 {
+  right: -100%;
+  transition-delay: 0.6s;
+  transition-duration: 0s;
+}
+.content .contentWrap .sect.sect5 .sect5Content {
+  width: 22%;
+  z-index: 9996;
+  position: absolute;
+  overflow: hidden;
+  top: 119px;
+}
+.content .contentWrap .sect.sect5 .sect5Content .fake {
+  width: 100%;
+  height: 100%;
+}
+.content .contentWrap .sect.sect5 .sect5Content img {
+  width: 100%;
+}
+.content .contentWrap .sect.sect5 .sect5Content .real {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.content .contentWrap .sect.sect5 .sect5Content img.thumb, .content .contentWrap .sect.sect5 .sect5Content .h3, .content .contentWrap .sect.sect5 .sect5Content p.exp, .content .contentWrap .sect.sect5 .sect5Content .moreView {
+  transform: translate(-101%, 0%);
+  transition-duration: 0.4s;
+  transition-timing-function: cubic-bezier(0.56, 0.15, 0.43, 0.96);
+}
+.content .contentWrap .sect.sect5 .sect5Content img.thumb {
+  width: 100%;
+  transition-delay: 0.15s;
+}
+.content .contentWrap .sect.sect5 .sect5Content p.exp {
+  font-family: "aktiv-grotesk", "AppleSDGothicNeo";
+  font-weight: 400;
+  transition-delay: 0.05s;
+}
+.content .contentWrap .sect.sect5 .sect5Content .moreView {
+  transition-delay: 0s;
+}
+.content .contentWrap .sect.sect5 .sect5Content .h3 {
+  transition-delay: 0.1s;
+  margin-top: 42px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+}
+.content .contentWrap .sect.sect5 .sect5Content .h3 b {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #c40c1a;
+  font-family: "aktiv-grotesk", "AppleSDGothicNeo";
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+.content .contentWrap .sect.sect5 .sect5Content p.exp {
+  margin-top: 20px;
+  color: #999999;
+  letter-spacing: -0.8px;
+  line-height: 22px;
+  font-size: 15px;
+  font-family: "aktiv-grotesk", "AppleSDGothicNeo";
+  font-weight: 400;
+}
+.content .contentWrap .sect.sect5 .sect5Content .moreView {
+  margin-top: 44px;
+}
+.content .contentWrap .sect.sect5 .sect5Content .moreView a {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+}
+.content .contentWrap .sect.sect5 .sect5Content .moreView a p {
+  font-weight: bold;
+  color: #000;
+  font-size: 16px;
+  margin-top: 4px;
+}
+.content .contentWrap .sect.sect5 .sect5Content .moreView a svg {
+  width: 24px;
+  height: 24px;
+}
+.content .contentWrap .sect.sect5 .sect5Content .moreView a svg.plus {
+  transition-duration: 0.3s;
+}
+.content .contentWrap .sect.sect5 .sect5Content .moreView a svg.plus .cls-1 {
+  fill: #000;
+}
+.content .contentWrap .sect.sect5 .sect5Content .moreView a svg.rtt180 {
+  transform: rotate(180deg);
+}
+.content .contentWrap .sect.sect5 .sect5Content .moreView a svg.rtt180 .cls-1 {
+  fill: #c40c1a;
+}
+.content .contentWrap .sect.sect5 .sect5Content1 {
+  left: 16%;
+}
+.content .contentWrap .sect.sect5 .sect5Content2 {
+  left: 50%;
+}
+.content .contentWrap .sect.sect5.on {
+  right: 0%;
+  transition-delay: 0s;
+  transition-duration: 0s;
+}
+.content .contentWrap .sect.sect5.on .sect5Content img.thumb, .content .contentWrap .sect.sect5.on .sect5Content .h3, .content .contentWrap .sect.sect5.on .sect5Content p.exp, .content .contentWrap .sect.sect5.on .sect5Content .moreView {
+  transition-duration: 0.6s;
+  transition-timing-function: cubic-bezier(0.24, 0.39, 0.43, 0.96);
+}
+.content .contentWrap .sect.sect5.on .sect5Content img.thumb {
+  transition-delay: 0.4s;
+  transform: translate(0%, 0%);
+}
+.content .contentWrap .sect.sect5.on .sect5Content .h3 {
+  transition-delay: 0.45s;
+  transform: translate(0%, 0%);
+}
+.content .contentWrap .sect.sect5.on .sect5Content p.exp {
+  transition-delay: 0.5s;
+  transform: translate(0%, 0%);
+}
+.content .contentWrap .sect.sect5.on .sect5Content .moreView {
+  transition-delay: 0.55s;
+  transform: translate(0%, 0%);
+}
+.content .contentWrap .sect.sect5.on .sect5Content2 img, .content .contentWrap .sect.sect5.on .sect5Content2 .h3, .content .contentWrap .sect.sect5.on .sect5Content2 p.exp, .content .contentWrap .sect.sect5.on .sect5Content2 .moreView {
+  transition-duration: 0.5s;
+}
+.content .contentWrap .sect.sect5.on .sect5Content2 img.thumbimg {
+  transition-delay: 0.55s;
+  transform: translate(0%, 0%);
+}
+.content .contentWrap .sect.sect5.on .sect5Content2 .h3 {
+  transition-delay: 0.6s;
+  transform: translate(0%, 0%);
+}
+.content .contentWrap .sect.sect5.on .sect5Content2 p.exp {
+  transition-delay: 0.65s;
+  transform: translate(0%, 0%);
+}
+.content .contentWrap .sect.sect5.on .sect5Content2 .moreView {
+  transition-delay: 0.7s;
+  transform: translate(0%, 0%);
+}
+
+.curtainCall-white {
+  opacity: 1;
+}
+.curtainCall-white.off {
+  opacity: 0;
+}
+
+.videoPopup {
+  right: -100%;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 10000;
+}
+.videoPopup .videoPopupWrap {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition-duration: 0.3s;
+}
+.videoPopup .videoPopupWrap .videoContent {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.videoPopup .videoPopupWrap .videoContent .close {
+  cursor: pointer;
+  border: 1px solid #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.desktop {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .content .contentWrap .sect .sectWrap div.sectTitle {
+    left: 17.5%;
+  }
+  .content .contentWrap .sect .sectWrap div.sectTitle div.titleLine {
+    font-size: 120px;
+  }
+  .content .contentWrap .sect .sectWrap div.sectTitle div.titleLine div.small {
+    font-size: 16px;
+  }
+  .content .contentWrap .sect .sectWrap div.sectTitle div.titleLine div.small p {
+    margin-left: 67px;
+    padding-top: 64px;
+    line-height: 24px;
+  }
+  .content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.memo {
+    font-size: 18px;
+    margin-bottom: 28px;
+  }
+  .content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.titleLine {
+    margin-top: -6px;
+  }
+  .content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine {
+    margin-top: -6px;
+  }
+  .content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine .real {
+    transform: translateY(200px);
+  }
+  .content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine div.small {
+    letter-spacing: 1px;
+  }
+  .content .contentWrap .sect.sect2 .sectWrap div.sectTitle .titleLine p {
+    font-size: 260px;
+  }
+  .content .contentWrap .sect.sect2 .sectWrap .bg {
+    background-size: 100%;
+  }
+  .content .contentWrap .sect.sect2 .sectWrap .bg::after {
+    content: "";
+    width: 100%;
+    height: 0%;
+  }
+  .content .contentWrap .sect.sect2 .sectWrap .bg img {
+    top: 0;
+    left: 50%;
+  }
+  .content .contentWrap .sect.sect2.on .sectWrap div.sectTitle .titleLine p {
+    font-size: 260px;
+  }
+  .content .contentWrap .sect.sect2.on .sectWrap .bg {
+    background-size: 180%;
+    left: 47.5%;
+    width: 30%;
+    height: 80%;
+  }
+  .content .contentWrap .sect.sect2.showWithus {
+    width: 77.5%;
+  }
+  .content .contentWrap .sect.sect2.showWithus .sectWrap div.sectTitle {
+    top: 209px;
+  }
+  .content .contentWrap .sect.sect2.showWithus .sectWrap div.sectTitle .titleLine p {
+    font-size: 120px;
+  }
+  .content .contentWrap .sect.sect2.showWithus .sectWrap .bg {
+    left: 47.5%;
+    width: 30%;
+    height: 80%;
+    top: -100%;
+  }
+  .content .contentWrap .sect.sect2.showWithus .sectWrap .bg::after {
+    content: "";
+    height: 100%;
+  }
+  .content .contentWrap .sect.sect2.off div.sectTitle {
+    top: 209px;
+  }
+  .content .contentWrap .sect.sect2.off div.sectTitle .titleLine p {
+    font-size: 120px;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle1 {
+    transform: translate(0%, -50%);
+    left: 32.5%;
+    top: 50%;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle2 {
+    transform: translate(0%, -50%);
+    left: 32.5%;
+    top: 70%;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle {
+    font-size: 40px;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle p {
+    line-height: 50px;
+    letter-spacing: -0.5px;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle .small {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -1px;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap .videoContent {
+    left: 47.5%;
+    top: 209px;
+    width: 45%;
+    height: 30vw;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoContainer a .icon_play {
+    width: 44px;
+    height: 44px;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoContainer a svg {
+    transition-delay: 2.7s;
+    transition-duration: 0.3s;
+    opacity: 0;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoContainer a svg .cls-1 {
+    transition-duration: 0.6s;
+    fill: #ffffff;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoName {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .content .contentWrap .sect.sect4 .sectSubTitle {
+    font-family: "aktiv-grotesk", "AppleSDGothicNeo";
+    top: 210px;
+    left: 17.5%;
+    width: 1340px;
+    font-size: 22px;
+    letter-spacing: -0.6px;
+  }
+  .content .contentWrap .sect.sect4 .sectTitle {
+    left: 47.5%;
+    top: 500px;
+    bottom: auto;
+  }
+  .content .contentWrap .sect.sect4 .sectTitle .titleLine div {
+    font-size: 260px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content {
+    width: 27%;
+    top: 140px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content .h3 {
+    margin-top: 24px;
+    font-size: 18px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content .h3 b {
+    margin-left: 10px;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content p.exp {
+    margin-top: 16px;
+    letter-spacing: -0.8px;
+    line-height: 22px;
+    font-size: 14px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content p.exp br {
+    display: none;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content .moreView {
+    margin-top: 24px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content1 {
+    left: 16%;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content2 {
+    left: 57%;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content3 {
+    left: 16%;
+    top: 55%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .content .contentWrap .sect .sectWrap div.sectTitle {
+    left: 17.5%;
+  }
+  .content .contentWrap .sect .sectWrap div.sectTitle div.titleLine {
+    font-size: 120px;
+  }
+  .content .contentWrap .sect .sectWrap div.sectTitle div.titleLine div.small {
+    font-size: 16px;
+  }
+  .content .contentWrap .sect .sectWrap div.sectTitle div.titleLine div.small p {
+    margin-left: 67px;
+    padding-top: 64px;
+    line-height: 24px;
+  }
+  .content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.memo {
+    font-size: 18px;
+    margin-bottom: 28px;
+  }
+  .content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.titleLine {
+    margin-top: -6px;
+  }
+  .content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine {
+    margin-top: -6px;
+  }
+  .content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine .real {
+    transform: translateY(200px);
+  }
+  .content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine div.small {
+    letter-spacing: 1px;
+  }
+  .content .contentWrap .sect.sect2 .sectWrap div.sectTitle .titleLine p {
+    font-size: 260px;
+  }
+  .content .contentWrap .sect.sect2 .sectWrap .bg {
+    background-size: 100%;
+  }
+  .content .contentWrap .sect.sect2 .sectWrap .bg::after {
+    content: "";
+    width: 100%;
+    height: 0%;
+  }
+  .content .contentWrap .sect.sect2 .sectWrap .bg img {
+    top: 0;
+    left: 50%;
+  }
+  .content .contentWrap .sect.sect2.on .sectWrap div.sectTitle .titleLine p {
+    font-size: 260px;
+  }
+  .content .contentWrap .sect.sect2.on .sectWrap .bg {
+    background-size: 180%;
+    left: 47.5%;
+    width: 30%;
+    height: 80%;
+  }
+  .content .contentWrap .sect.sect2.showWithus {
+    width: 77.5%;
+  }
+  .content .contentWrap .sect.sect2.showWithus .sectWrap div.sectTitle {
+    top: 209px;
+  }
+  .content .contentWrap .sect.sect2.showWithus .sectWrap div.sectTitle .titleLine p {
+    font-size: 120px;
+  }
+  .content .contentWrap .sect.sect2.showWithus .sectWrap .bg {
+    left: 47.5%;
+    width: 30%;
+    height: 80%;
+    top: -100%;
+  }
+  .content .contentWrap .sect.sect2.showWithus .sectWrap .bg::after {
+    content: "";
+    height: 100%;
+  }
+  .content .contentWrap .sect.sect2.off div.sectTitle {
+    top: 209px;
+  }
+  .content .contentWrap .sect.sect2.off div.sectTitle .titleLine p {
+    font-size: 120px;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle1 {
+    transform: translate(0%, -50%);
+    left: 32.5%;
+    top: 50%;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle2 {
+    transform: translate(0%, -50%);
+    left: 32.5%;
+    top: 70%;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle {
+    font-size: 40px;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle p {
+    line-height: 50px;
+    letter-spacing: -0.5px;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle .small {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -1px;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap .videoContent {
+    left: 47.5%;
+    top: 209px;
+    width: 45%;
+    height: 30vw;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoContainer a .icon_play {
+    width: 44px;
+    height: 44px;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoContainer a svg {
+    transition-delay: 2.7s;
+    transition-duration: 0.3s;
+    opacity: 0;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoContainer a svg .cls-1 {
+    transition-duration: 0.6s;
+    fill: #ffffff;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoName {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .content .contentWrap .sect.sect4 .sectSubTitle {
+    font-family: "aktiv-grotesk", "AppleSDGothicNeo";
+    top: 210px;
+    left: 17.5%;
+    width: 1340px;
+    font-size: 22px;
+    letter-spacing: -0.6px;
+  }
+  .content .contentWrap .sect.sect4 .sectTitle {
+    left: 47.5%;
+    top: 500px;
+    bottom: auto;
+  }
+  .content .contentWrap .sect.sect4 .sectTitle .titleLine div {
+    font-size: 260px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content {
+    width: 27%;
+    top: 140px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content .h3 {
+    margin-top: 24px;
+    font-size: 18px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content .h3 b {
+    margin-left: 10px;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content p.exp {
+    margin-top: 16px;
+    letter-spacing: -0.8px;
+    line-height: 22px;
+    font-size: 14px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content p.exp br {
+    display: none;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content .moreView {
+    margin-top: 24px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content1 {
+    left: 16%;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content2 {
+    left: 57%;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content3 {
+    left: 16%;
+    top: 55%;
+  }
+}
+@media screen and (min-width: 1380px) {
+  .desktop {
+    display: block;
+  }
+  .content .contentWrap .sect .sectWrap div.sectTitle {
+    left: 17.5%;
+  }
+  .content .contentWrap .sect .sectWrap div.sectTitle div.titleLine {
+    font-size: 120px;
+  }
+  .content .contentWrap .sect .sectWrap div.sectTitle div.titleLine div.small {
+    font-size: 16px;
+  }
+  .content .contentWrap .sect .sectWrap div.sectTitle div.titleLine div.small p {
+    margin-left: 67px;
+    padding-top: 64px;
+    line-height: 24px;
+  }
+  .content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.memo {
+    font-size: 18px;
+    margin-bottom: 28px;
+  }
+  .content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.titleLine {
+    margin-top: -6px;
+  }
+  .content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine {
+    margin-top: -6px;
+  }
+  .content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine .real {
+    transform: translateY(200px);
+  }
+  .content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine div.small {
+    letter-spacing: 1px;
+  }
+  .content .contentWrap .sect.sect2 .sectWrap div.sectTitle .titleLine p {
+    font-size: 260px;
+  }
+  .content .contentWrap .sect.sect2 .sectWrap .bg {
+    background-size: 100%;
+  }
+  .content .contentWrap .sect.sect2 .sectWrap .bg::after {
+    content: "";
+    width: 100%;
+    height: 0%;
+  }
+  .content .contentWrap .sect.sect2 .sectWrap .bg img {
+    top: 0;
+    left: 50%;
+  }
+  .content .contentWrap .sect.sect2.on .sectWrap div.sectTitle .titleLine p {
+    font-size: 260px;
+  }
+  .content .contentWrap .sect.sect2.on .sectWrap .bg {
+    background-size: 180%;
+    left: 47.5%;
+    width: 30%;
+    height: 80%;
+  }
+  .content .contentWrap .sect.sect2.showWithus {
+    width: 77.5%;
+  }
+  .content .contentWrap .sect.sect2.showWithus .sectWrap div.sectTitle {
+    top: 209px;
+  }
+  .content .contentWrap .sect.sect2.showWithus .sectWrap div.sectTitle .titleLine p {
+    font-size: 120px;
+  }
+  .content .contentWrap .sect.sect2.showWithus .sectWrap .bg {
+    left: 47.5%;
+    width: 30%;
+    height: 80%;
+    top: -100%;
+  }
+  .content .contentWrap .sect.sect2.showWithus .sectWrap .bg::after {
+    content: "";
+    height: 100%;
+  }
+  .content .contentWrap .sect.sect2.off div.sectTitle {
+    top: 209px;
+  }
+  .content .contentWrap .sect.sect2.off div.sectTitle .titleLine p {
+    font-size: 120px;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle1 {
+    transform: translate(0%, -50%);
+    left: 32.5%;
+    top: 50%;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle2 {
+    transform: translate(0%, -50%);
+    left: 32.5%;
+    top: 70%;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle {
+    font-size: 40px;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle p {
+    line-height: 50px;
+    letter-spacing: -0.5px;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle .small {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -1px;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap .videoContent {
+    left: 47.5%;
+    top: 209px;
+    width: 45%;
+    height: 30vw;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoContainer a .icon_play {
+    width: 44px;
+    height: 44px;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoContainer a svg {
+    transition-delay: 2.7s;
+    transition-duration: 0.3s;
+    opacity: 0;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoContainer a svg .cls-1 {
+    transition-duration: 0.6s;
+    fill: #ffffff;
+  }
+  .content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoName {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .content .contentWrap .sect.sect4 .sectSubTitle {
+    font-family: "aktiv-grotesk", "AppleSDGothicNeo";
+    top: 210px;
+    left: 17.5%;
+    width: 1340px;
+    font-size: 22px;
+    letter-spacing: -0.6px;
+  }
+  .content .contentWrap .sect.sect4 .sectTitle {
+    left: 47.5%;
+    top: 500px;
+    bottom: auto;
+  }
+  .content .contentWrap .sect.sect4 .sectTitle .titleLine div {
+    font-size: 260px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content {
+    width: 22%;
+    top: 220px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content .h3 {
+    margin-top: 38px;
+    font-size: 24px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content .h3 b {
+    margin-left: 10px;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content p.exp {
+    margin-top: 20px;
+    letter-spacing: -0.8px;
+    line-height: 22px;
+    font-size: 15px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content p.exp br {
+    display: block;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content .moreView {
+    margin-top: 38px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content .moreView a {
+    width: 130px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content .moreView a p {
+    font-size: 16px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content .moreView a svg {
+    width: 24px;
+    height: 24px;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content1 {
+    left: 10.5%;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content2 {
+    left: 40.5%;
+  }
+  .content .contentWrap .sect.sect5 .sect5Content3 {
+    left: 70.5%;
+  }
+}
+.sect1__popup {
+  width: calc(100% - 80px);
+  height: auto;
+  max-height: 400px;
+  max-width: 400px;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+}
+
+.sect1__popup img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.sect1__popup.off {
+  display: none !important;
+}
+
+.popup__header {
+  width: 100%;
+  height: 22px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-sizing: border-box;
+}
+
+.popup__header button {
+  position: absolute;
+  top: 0px;
+  width: 18px;
+  height: 18px;
+  padding: 2px;
+  top: 1px;
+  right: 2px;
+  cursor: unset;
+}
+
+.popup__header button span {
+  width: 100%;
+  height: 2px;
+  background-color: #c40c1a;
+  display: block;
+}
+
+.popup__header button span:nth-child(1) {
+  transform: rotate(45deg) translate(1.5px, 1.5px);
+}
+
+.popup__header button span:nth-child(2) {
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 560px) {
+  .sect1__popup {
+    left: 40px;
+  }
+}/*# sourceMappingURL=main.css.map */

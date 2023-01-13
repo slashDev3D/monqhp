@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=., initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/getSheetData.js"></script>
+    <style>
+        .form-contact {
+  width: 90%; margin: auto;
+}
+
+.thankyou_message {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  display: none;
+}
+
+.thankyou_message > section > h1 {
+  color: #59c3c3;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.thankyou_message > section {
+  width: 550px;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 5px;
+  background: url(../images/contact_pop.jpg) no-repeat #fff right bottom;
+  background-size: 240px;
+  color: #3c4147;
+}
+</style>
+</head>
+<body>
+    <form class="gform" id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxf9F_3w4aBjeowoi2jzy-t7NQax-E65dA3P0eOn0iq1UXXFW4xW8QqCS4N4bJIGobqOg/exec" class="mt-5 form-contact slideanim">
+        <div class="row">
+          <div class="form-group col-sm-6">
+            <label for="name" class="blind">이름</label>
+            <input type="text" class="form-control" id="name" name="name" value="odada">
+          </div>
+          <div class="form-group col-sm-6">
+            <label for="message" class="blind">문의내용</label>
+            <input type="text" class="form-control" id="message" name="message" value="odada">
+          </div>
+          <div class="form-group col-sm-6">
+            <label for="email" class="blind">답변 받을 이메일</label>
+            <input type="email" class="form-control" id="email" name="email" value="sample@mail.com">
+          </div>
+          <div class="form-group col-sm-6">
+            <label for="color" class="blind">컬러</label>
+            <input type="text" class="form-control" id="color" name="color" value="color">
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary" onclick="alert('전송완료')">문의하기</button>
+
+        <div style="display:none" class="thankyou_message">
+            <!-- You can customize the thankyou message by editing the code below -->
+            <h2><em>Thanks</em> for contacting us! We will get back to you soon!
+            </h2>
+        </div>
+      </form>
+
+      <script data-cfasync="false" type="text/javascript" src="js/sendEmail01.js"></script>
+</body>
+</html>

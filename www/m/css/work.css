@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 100;
+  src: url(../font/AppleSDGothicNeoT.woff2) format("woff2"), url(../font/AppleSDGothicNeoT.woff) format("woff"), url(../font/AppleSDGothicNeoT.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 200;
+  src: url(../font/AppleSDGothicNeoUL.woff2) format("woff2"), url(../font/AppleSDGothicNeoUL.woff) format("woff"), url(../font/AppleSDGothicNeoUL.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/AppleSDGothicNeoL.woff2) format("woff2"), url(../font/AppleSDGothicNeoL.woff) format("woff"), url(../font/AppleSDGothicNeoL.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/AppleSDGothicNeoR.woff2) format("woff2"), url(../font/AppleSDGothicNeoR.woff) format("woff"), url(../font/AppleSDGothicNeoR.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../font/AppleSDGothicNeoM.woff2) format("woff2"), url(../font/AppleSDGothicNeoM.woff) format("woff"), url(../font/AppleSDGothicNeoM.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../font/AppleSDGothicNeoSB.woff2) format("woff2"), url(../font/AppleSDGothicNeoSB.woff) format("woff"), url(../font/AppleSDGothicNeoSB.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../font/AppleSDGothicNeoB.woff2) format("woff2"), url(../font/AppleSDGothicNeoB.woff) format("woff"), url(../font/AppleSDGothicNeoB.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 800;
+  src: url(../font/AppleSDGothicNeoEB.woff2) format("woff2"), url(../font/AppleSDGothicNeoEB.woff) format("woff"), url(../font/AppleSDGothicNeoEB.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 900;
+  src: url(../font/AppleSDGothicNeoH.woff2) format("woff2"), url(../font/AppleSDGothicNeoH.woff) format("woff"), url(../font/AppleSDGothicNeoH.otf) format("opentype");
+}
+
+/***********************/
+/***********************/
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 100;
+  src: url(../font/NotoSansKR-Thin.woff2) format("woff2"), url(../font/NotoSansKR-Thin.woff) format("woff"), url(../font/NotoSansKR-Thin.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 200;
+  src: url(../font/NotoSansKR-DemiLight.woff2) format("woff2"), url(../font/NotoSansKR-DemiLight.woff) format("woff"), url(../font/NotoSansKR-DemiLight.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/NotoSansKR-Light.woff2) format("woff2"), url(../font/NotoSansKR-Light.woff) format("woff"), url(../font/NotoSansKR-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/NotoSansKR-Regular.woff2) format("woff2"), url(../font/NotoSansKR-Regular.woff) format("woff"), url(../font/NotoSansKR-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../font/NotoSansKR-Medium.woff2) format("woff2"), url(../font/NotoSansKR-Medium.woff) format("woff"), url(../font/NotoSansKR-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../font/NotoSansKR-Bold.woff2) format("woff2"), url(../font/NotoSansKR-Bold.woff) format("woff"), url(../font/NotoSansKR-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 900;
+  src: url(../font/NotoSansKR-Black.woff2) format("woff2"), url(../font/NotoSansKR-Black.woff) format("woff"), url(../font/NotoSansKR-Black.otf) format("opentype");
+}
+
+body {
+  background-color: #000000;
+}
+
+main {
+  position: relative;
+}
+
+.container {
+  top: 40px;
+  width: 100%;
+  position: absolute;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.container.on {
+  opacity: 1;
+  pointer-events: unset;
+}
+
+.swipping {
+  margin-top: 90px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.swipping li {
+  width: 50%;
+  max-width: 220px;
+  padding: 0 14px;
+}
+
+.swipping li p {
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+}
+
+.swipping li.on p {
+  color: #c40c1a;
+}
+
+.swipping li:nth-child(1) {
+  text-align: right;
+  border-right: 1px solid #999999;
+}
+
+.thumb-swiper {
+  width: 100%;
+  height: 80px;
+  max-height: 200px;
+  z-index: 1001;
+  position: relative;
+}
+
+.thumb-swiper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #ffb4b4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.mainThumb {
+  max-width: 570px;
+  margin: auto;
+  width: 100%;
+  height: 210px;
+}
+
+.mainThumb .slideWrap {
+  z-index: 1001;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #000000;
+}
+
+.mainThumb .slideWrap .slide {
+  width: calc(100% - 40px);
+  height: 100%;
+  position: absolute;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  left: 50%;
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  pointer-events: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.mainThumb .slideWrap .slide .img {
+  width: 100%;
+  height: 100%;
+}
+
+.mainThumb .slideWrap .slide .black-filter {
+  width: 100%;
+  height: 100%;
+}
+
+.mainThumb .slideWrap .slide.on {
+  opacity: 1;
+  pointer-events: unset;
+}
+
+.title-container {
+  width: calc(100% - 40px);
+  margin: 18px auto 30px;
+  height: 160px;
+}
+
+.title-container .title-wrap {
+  z-index: 1001;
+  position: relative;
+}
+
+.title-container .title-wrap .title-list {
+  position: absolute;
+  opacity: 0;
+  -webkit-transform: translate(-10px, 0%);
+          transform: translate(-10px, 0%);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  font-weight: 600;
+}
+
+.title-container .title-wrap .title-list .project-title {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.title-container .title-wrap .title-list .project-name {
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.title-container .title-wrap .title-list .client-name {
+  display: none;
+  font-size: 12px;
+  color: #999999;
+}
+
+.title-container .title-wrap .title-list.on {
+  opacity: 1;
+  -webkit-transform: translate(0px, 0%);
+          transform: translate(0px, 0%);
+}
+
+@media screen and (min-width: 700px) {
+  .title-container {
+    width: calc(100% - 120px);
+    margin: 46px auto 20px;
+  }
+  .title-container .title-wrap .title-list .project-title {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #ffffff;
+  }
+  .title-container .title-wrap .title-list .project-name {
+    font-size: 32px;
+    color: #ffffff;
+  }
+  .title-container .title-wrap .title-list .client-name {
+    font-size: 12px;
+    color: #999999;
+  }
+  .swipping {
+    margin-top: 75px;
+  }
+  .swipping li {
+    width: 50%;
+    max-width: 220px;
+    padding: 0 20px;
+  }
+  .swipping li p {
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .container {
+    top: 120px;
+  }
+  .mainThumb {
+    height: 270px;
+  }
+  .thumb-swiper {
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .container {
+    top: 50px;
+  }
+  .mainThumb {
+    height: 290px;
+  }
+  .thumb-swiper {
+    margin-top: -38px;
+    height: 120px;
+  }
+  .title-container {
+    width: calc(100% - 160px);
+    height: 160px;
+    margin: -22px auto 0;
+  }
+  .title-container .title-wrap .title-list .project-title {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #ffffff;
+  }
+  .title-container .title-wrap .title-list .project-name {
+    font-size: 32px;
+    color: #ffffff;
+  }
+  .title-container .title-wrap .title-list .client-name {
+    font-size: 12px;
+    color: #999999;
+  }
+}
+/*# sourceMappingURL=work.css.map */

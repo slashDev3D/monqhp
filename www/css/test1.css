@@ -1,0 +1,448 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid #ff0404;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+aside.side {
+  z-index: 9999;
+  width: 160px;
+  height: 100%;
+  position: fixed;
+  padding: 80px 0 80px 40px;
+}
+
+aside.side h1 {
+  position: absolute;
+}
+
+aside.side h1 a {
+  display: block;
+  width: 80px;
+  height: 29px;
+}
+
+aside.side .btn-ham {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+aside.side .btn-ham .rel span {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: absolute;
+  background-color: #fff;
+  width: 4px;
+  height: 4px;
+  border-radius: 3px;
+}
+
+aside.side .btn-ham .rel span:nth-child(1) {
+  top: 0;
+  left: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+aside.side .btn-ham .rel span:nth-child(2) {
+  top: 0;
+  right: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+aside.side .btn-ham .rel span:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+}
+
+aside.side .btn-ham .rel span:nth-child(4) {
+  bottom: 0;
+  left: 0;
+  -webkit-transform: rotate(-225deg);
+          transform: rotate(-225deg);
+}
+
+aside.side .btn-ham.on .rel span:nth-child(1) {
+  -webkit-transform: translate(2px, 2px) rotate(45deg);
+          transform: translate(2px, 2px) rotate(45deg);
+}
+
+aside.side .btn-ham.on .rel span:nth-child(2) {
+  -webkit-transform: translate(-2px, 2px) rotate(-45deg);
+          transform: translate(-2px, 2px) rotate(-45deg);
+}
+
+aside.side .btn-ham.on .rel span:nth-child(3) {
+  -webkit-transform: translate(-2px, -2px) rotate(225deg);
+          transform: translate(-2px, -2px) rotate(225deg);
+}
+
+aside.side .btn-ham.on .rel span:nth-child(4) {
+  -webkit-transform: translate(2px, -2px) rotate(-225deg);
+          transform: translate(2px, -2px) rotate(-225deg);
+}
+
+aside.side .btn-ham.activate {
+  -webkit-transform: translate(-50%, -50%) rotate(90deg);
+          transform: translate(-50%, -50%) rotate(90deg);
+}
+
+aside.side .btn-ham.activate .rel span.activate {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  width: 12px;
+}
+
+aside.side .btn-ham.activate .rel span.activate:nth-child(1) {
+  -webkit-transform: translate(-4px, -1px) rotate(45deg);
+          transform: translate(-4px, -1px) rotate(45deg);
+}
+
+aside.side .btn-ham.activate .rel span.activate:nth-child(2) {
+  -webkit-transform: translate(4px, -1px) rotate(-45deg);
+          transform: translate(4px, -1px) rotate(-45deg);
+}
+
+aside.side .btn-ham.activate .rel span.activate:nth-child(3) {
+  -webkit-transform: translate(4px, -1px) rotate(225deg);
+          transform: translate(4px, -1px) rotate(225deg);
+}
+
+aside.side .btn-ham.activate .rel span.activate:nth-child(4) {
+  -webkit-transform: translate(-4px, -1px) rotate(-225deg);
+          transform: translate(-4px, -1px) rotate(-225deg);
+}
+
+aside.side ul.sns {
+  position: absolute;
+  bottom: 80px;
+}
+
+aside.side ul.sns li:nth-of-type(2) {
+  margin: 40px 0;
+}
+
+div.bg {
+  position: absolute;
+  width: 110%;
+  height: 110%;
+  background-image: url(../img/main_bg1.jpg);
+  background-size: cover;
+  border: 3px solid #ffe387;
+}
+
+div.curtainCall {
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+div.curtainCall div.links > * {
+  z-index: 9999;
+}
+
+div.curtainCall div.links div.link-portfolio {
+  position: absolute;
+  left: 50%;
+  bottom: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.curtainCall div.links div.link-portfolio a {
+  color: white;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+div.curtainCall div.links div.link-portfolio a:first-of-type {
+  border-right: 1px solid #999999;
+}
+
+div.curtainCall div.links div.link-works {
+  position: absolute;
+  right: 40px;
+  bottom: 80px;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: bold;
+}
+
+div.curtainCall div.links div.link-works a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-size: 16px;
+}
+
+div.curtainCall div.links div.link-works a img {
+  margin-left: 10px;
+  display: block;
+}
+
+div.curtainCall div.links div.language-change {
+  position: absolute;
+  right: 40px;
+  top: 80px;
+  font-weight: bold;
+}
+
+div.curtainCall div.links div.language-change a {
+  color: #999999;
+  margin: 0 15px;
+  padding: 4px 0;
+  font-size: 16px;
+}
+
+div.curtainCall div.links div.language-change a.on {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+div.curtainCall div.curtain {
+  width: 294px;
+  height: 100%;
+  float: left;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+div.curtainCall div.curtain:nth-of-type(1) {
+  width: 307px;
+}
+
+div.curtainCall div.curtain p.curtain-text {
+  margin-top: 80px;
+  color: #999999;
+  line-height: 20px;
+}
+
+div.curtainCall div.curtain div.scrollAnimation {
+  position: absolute;
+  color: white;
+  z-index: 9999;
+  bottom: 80px;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.curtainCall div.curtain div.scrollAnimation .moveLine {
+  width: 80px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.32);
+  margin: 14px 10px 0 0;
+  position: relative;
+}
+
+div.curtainCall div.curtain div.scrollAnimation .moveLine .moveDot {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+  -webkit-animation: warigari 4s ease infinite;
+          animation: warigari 4s ease infinite;
+}
+
+@-webkit-keyframes warigari {
+  0% {
+    -webkit-transform: translate(-5px, -50%);
+            transform: translate(-5px, -50%);
+  }
+  50% {
+    -webkit-transform: translate(75px, -50%);
+            transform: translate(75px, -50%);
+  }
+  100% {
+    -webkit-transform: translate(-5px, -50%);
+            transform: translate(-5px, -50%);
+  }
+}
+
+@keyframes warigari {
+  0% {
+    -webkit-transform: translate(-5px, -50%);
+            transform: translate(-5px, -50%);
+  }
+  50% {
+    -webkit-transform: translate(75px, -50%);
+            transform: translate(75px, -50%);
+  }
+  100% {
+    -webkit-transform: translate(-5px, -50%);
+            transform: translate(-5px, -50%);
+  }
+}
+
+main.o-scroll {
+  background-color: #ffffff00;
+}
+
+main.o-scroll .content {
+  position: relative;
+  height: 100vh;
+}
+
+main.o-scroll .content .contentWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+main.o-scroll .content .contentWrap h2.mainTitle {
+  position: absolute;
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+  top: 50%;
+  left: 304px;
+  height: 500px;
+}
+
+main.o-scroll .content .contentWrap h2.mainTitle div.memo {
+  color: #999999;
+  font-style: italic;
+  font-weight: 200;
+}
+
+main.o-scroll .content .contentWrap h2.mainTitle div.memo b {
+  font-style: normal;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+main.o-scroll .content .contentWrap h2.mainTitle div.titleLine p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+main.o-scroll .content .contentWrap h2.mainTitle div.titleLine p b {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 100;
+}
+
+main.o-scroll .content .contentWrap h2.mainTitle div.titleLine {
+  color: #ffffff;
+  font-size: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main.o-scroll .content .contentWrap h2.mainTitle div.titleLine div.small {
+  font-size: 16px;
+}
+
+main.o-scroll .content .contentWrap h2.mainTitle div.titleLine div.small p {
+  margin-left: 67px;
+  padding-top: 66px;
+  width: 100%;
+  height: 100%;
+  line-height: 24px;
+  font-weight: 200;
+}
+
+main.o-scroll .content .contentWrap section {
+  position: relative;
+  width: 100vw;
+}
+
+main.o-scroll .content .contentWrap section.sect1 {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  padding: 80px 0;
+}
+
+main.o-scroll .content .contentWrap section.sect2 {
+  height: 100%;
+  background-color: black;
+}
+
+main.o-scroll .content .contentWrap section.sect2 .sect2bg {
+  background-image: url(../img/main_bg2.jpg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  left: 50%;
+  top: 0%;
+}
+
+main.o-scroll .content .contentWrap section.sect2 h2.mainTitle {
+  position: absolute;
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+  top: 50%;
+  left: 304px;
+  height: 500px;
+}
+
+main.o-scroll .content .contentWrap section.sect2 h2.mainTitle div.memo {
+  color: #999999;
+  font-style: italic;
+  font-weight: 200;
+}
+
+main.o-scroll .content .contentWrap section.sect2 h2.mainTitle div.memo b {
+  font-style: normal;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+main.o-scroll .content .contentWrap section.sect2 h2.mainTitle div.titleLine p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+main.o-scroll .content .contentWrap section.sect2 h2.mainTitle div.titleLine p b {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 100;
+}
+
+main.o-scroll .content .contentWrap section.sect2 h2.mainTitle div.titleLine {
+  color: #ffffff;
+  font-size: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main.o-scroll .content .contentWrap section.sect2 h2.mainTitle div.titleLine div.small {
+  font-size: 16px;
+}
+
+main.o-scroll .content .contentWrap section.sect2 h2.mainTitle div.titleLine div.small p {
+  margin-left: 67px;
+  padding-top: 66px;
+  width: 100%;
+  height: 100%;
+  line-height: 24px;
+  font-weight: 200;
+}
+/*# sourceMappingURL=test1.css.map */

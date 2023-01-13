@@ -1,0 +1,684 @@
+$primary-color: #e0b13d !default;
+$secondary-color: #c40c1a !default;
+$gray:#999999 !default;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 100;
+  src: url(../font/AppleSDGothicNeoT.woff2) format('woff2'),
+       url(../font/AppleSDGothicNeoT.woff) format('woff'),
+       url(../font/AppleSDGothicNeoT.otf) format('opentype');
+}
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 200;
+  src: url(../font/AppleSDGothicNeoUL.woff2) format('woff2'),
+       url(../font/AppleSDGothicNeoUL.woff) format('woff'),
+       url(../font/AppleSDGothicNeoUL.otf) format('opentype');
+}
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/AppleSDGothicNeoL.woff2) format('woff2'),
+       url(../font/AppleSDGothicNeoL.woff) format('woff'),
+       url(../font/AppleSDGothicNeoL.otf) format('opentype');
+}
+@font-face {
+   font-family: 'AppleSDGothicNeo';
+   font-style: normal;
+   font-weight: 400;
+   src: url(../font/AppleSDGothicNeoR.woff2) format('woff2'),
+        url(../font/AppleSDGothicNeoR.woff) format('woff'),
+        url(../font/AppleSDGothicNeoR.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'AppleSDGothicNeo';
+   font-style: normal;
+   font-weight: 500;
+   src: url(../font/AppleSDGothicNeoM.woff2) format('woff2'),
+        url(../font/AppleSDGothicNeoM.woff) format('woff'),
+        url(../font/AppleSDGothicNeoM.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'AppleSDGothicNeo';
+   font-style: normal;
+   font-weight: 600;
+   src: url(../font/AppleSDGothicNeoSB.woff2) format('woff2'),
+        url(../font/AppleSDGothicNeoSB.woff) format('woff'),
+        url(../font/AppleSDGothicNeoSB.otf) format('opentype');
+ }
+ @font-face {
+   font-family: 'AppleSDGothicNeo';
+   font-style: normal;
+   font-weight: 700;
+   src: url(../font/AppleSDGothicNeoB.woff2) format('woff2'),
+        url(../font/AppleSDGothicNeoB.woff) format('woff'),
+        url(../font/AppleSDGothicNeoB.otf) format('opentype');
+ }
+ @font-face {
+   font-family: 'AppleSDGothicNeo';
+   font-style: normal;
+   font-weight: 800;
+   src: url(../font/AppleSDGothicNeoEB.woff2) format('woff2'),
+        url(../font/AppleSDGothicNeoEB.woff) format('woff'),
+        url(../font/AppleSDGothicNeoEB.otf) format('opentype');
+ }
+ @font-face {
+   font-family: 'AppleSDGothicNeo';
+   font-style: normal;
+   font-weight: 900;
+   src: url(../font/AppleSDGothicNeoH.woff2) format('woff2'),
+        url(../font/AppleSDGothicNeoH.woff) format('woff'),
+        url(../font/AppleSDGothicNeoH.otf) format('opentype');
+ }
+
+
+
+ /***********************/
+//  @font-face {
+//     font-family: 'Helvetica';
+//     font-style: normal;
+//     font-weight: 300;
+//     src: url(../font/Helvetica_Light.woff2) format('woff2'),
+//          url(../font/Helvetica_Light.woff) format('woff'),
+//          url(../font/Helvetica_Light.otf) format('opentype');
+//   }
+//   @font-face {
+//      font-family: 'Helvetica';
+//      font-style: normal;
+//      font-weight: 400;
+//      src: url(../font/Helvetica_Regualr.woff2) format('woff2'),
+//           url(../font/Helvetica_Regualr.woff) format('woff'),
+//           url(../font/Helvetica_Regualr.otf) format('opentype');
+//    }
+//   @font-face {
+//      font-family: 'Helvetica';
+//      font-style: normal;
+//      font-weight: 600;
+//      src: url(../font/Helvetica75-Bold.woff2) format('woff2'),
+//           url(../font/Helvetica75-Bold.woff) format('woff'),
+//           url(../font/Helvetica75-Bold.otf) format('opentype');
+//    }
+//    @font-face {
+//      font-family: 'Helvetica';
+//      font-style: normal;
+//      font-weight: 900;
+//      src: url(../font/Helvetica95-Black.woff2) format('woff2'),
+//           url(../font/Helvetica95-Black.woff) format('woff'),
+//           url(../font/Helvetica95-Black.otf) format('opentype');
+//    }
+  
+  
+ /***********************/
+
+ @font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 100;
+  src: url(../font/NotoSansKR-Thin.woff2) format('woff2'),
+       url(../font/NotoSansKR-Thin.woff) format('woff'),
+       url(../font/NotoSansKR-Thin.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 200;
+  src: url(../font/NotoSansKR-DemiLight.woff2) format('woff2'),
+       url(../font/NotoSansKR-DemiLight.woff) format('woff'),
+       url(../font/NotoSansKR-DemiLight.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/NotoSansKR-Light.woff2) format('woff2'),
+       url(../font/NotoSansKR-Light.woff) format('woff'),
+       url(../font/NotoSansKR-Light.otf) format('opentype');
+}
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 400;
+   src: url(../font/NotoSansKR-Regular.woff2) format('woff2'),
+        url(../font/NotoSansKR-Regular.woff) format('woff'),
+        url(../font/NotoSansKR-Regular.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 500;
+   src: url(../font/NotoSansKR-Medium.woff2) format('woff2'),
+        url(../font/NotoSansKR-Medium.woff) format('woff'),
+        url(../font/NotoSansKR-Medium.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 600;
+   src: url(../font/NotoSansKR-Bold.woff2) format('woff2'),
+        url(../font/NotoSansKR-Bold.woff) format('woff'),
+        url(../font/NotoSansKR-Bold.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 900;
+   src: url(../font/NotoSansKR-Black.woff2) format('woff2'),
+        url(../font/NotoSansKR-Black.woff) format('woff'),
+        url(../font/NotoSansKR-Black.otf) format('opentype');
+ }
+
+
+main{position: relative;padding: 80px 20px 23vh;transition-duration: 0.6s;}
+main.black{background-color: #000000;}
+main.white{background-color: #ffffff;}
+nav .navham span{background-color: #000000;}
+.guide-line-wrap{
+    left: 0;
+}
+.guide-nav-bar{
+    z-index: 1002;
+    display: flex;
+    width: 50%;
+    max-width: 300px;
+    justify-content: space-between;
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    transform: translateZ(0);
+    li{
+        display:inline-block; vertical-align: top;
+        p{
+            font-family: 'aktiv-grotesk', 'AppleSDGothicNeo', sans-serif;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 1em;
+        }
+    }
+    li:nth-child(1) {
+        p{font-weight:500;}
+    }
+    li.black{p{color: black;}}
+    li.white{p{color: white;}}
+    li.on{p{color: $secondary-color;}}
+}
+h2{
+    font-size: 80px;margin-top: 80px;
+}
+.opac0{
+    opacity: 0 !important;
+}
+.scroll-event{
+    transition-duration: 0.3s;
+}
+.mainTitle{
+    z-index: 1001;
+    position: relative;
+    .textBox{
+        transition-duration: 0.6s;
+        transform: translate(0%,10%);
+        top: 100%;
+        left: 25%;
+        position: absolute;
+        .big{
+            font-family: 'aktiv-grotesk', 'AppleSDGothicNeo', sans-serif;
+            font-size: 36px;
+            line-height: 44px;
+            font-weight: 800;
+        }
+        .small{
+            margin-top: 30px;
+            color: #999999;
+            font-family: 'aktiv-grotesk', 'AppleSDGothicNeo', sans-serif;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 24px;
+        &.black{
+            color: rgba(0, 0, 0, 0);
+        }
+        }
+    }
+}
+.mainHeader{
+    transition-duration: 0.3s;
+    margin-top: 90px;
+    margin-bottom: 310px;
+}
+img{
+    width: 100%;
+}
+.sect{position: relative; transition-duration: 0.3s;}
+.sect1{
+    margin: 0px 0 260px;
+    .intro, .num, .big, .small{
+        color: #ffffff;
+        font-family: 'aktiv-grotesk', 'AppleSDGothicNeo', sans-serif;
+        font-weight: 600;
+    }
+    .row{
+        overflow: hidden;
+        margin: 60px 0 100px;
+        .line{
+            transition-duration: 1.5s;
+            width: 100%;
+            height: 2px;
+            background-color: #ffffff;
+        }
+    &.on{
+        .line{
+            transform: translate(0%,0%) scaleX(1);
+            width: 100%;
+            height: 2px;
+            background-color: #ffffff;
+        }
+    }
+    }
+    .row1{
+        .line{
+            transform: translate(-50%,0%) scaleX(0);
+        }
+        .num{
+            opacity: 0;
+            transform: translate(0%,100%);
+            transition-duration: 0.3s;
+        }
+        .big{
+            opacity: 0;
+            transform: translate(0%,100%);
+            transition-duration: 0.3s;
+        }
+        .small{
+            opacity: 0;
+            transform: translate(-100%,0%);
+            transition-duration: 0.3s;
+        }
+    &.on{
+        .num, .big, .small{
+            opacity: 1;
+            transform: translate(0%,0%);
+        }
+    }
+    }
+    .row2{
+        text-align: right;
+        .line{
+            transform: translate(50%,0%) scaleX(0);
+
+        }
+        .num{
+            opacity: 0;
+            transform: translate(0%,100%);
+            transition-duration: 0.3s;
+        }
+        .big{
+            opacity: 0;
+            transform: translate(0%,100%);
+            transition-duration: 0.3s;
+        }
+        .small{
+            opacity: 0;
+            transform: translate(100%,0%);
+            transition-duration: 0.3s;
+        }
+    &.on{
+        .num, .big, .small{
+            opacity: 1;
+            transform: translate(0%,0%);
+        }
+    }
+    }
+    .intro{
+        font-size: 20px;
+        padding: 0 0 100px;
+    }
+    .num{
+        margin-bottom: 30px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .big{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .small{
+        margin-bottom: 100px;
+        display: inline-block;
+        font-size: 15px;
+        line-height: 22px;
+        color: #999999;
+        width: 100%;
+    }
+}
+.sect2{
+    .content{
+        margin-top: 100px;
+        position: relative;
+        .contentTitle{
+            margin-bottom: 38px;
+            font-size: 40px;
+            font-weight: 700;
+            p{
+                span{
+                    opacity: 0;
+                    transform: translate(0%,30%);
+                    transition-duration: 0.2s;
+                    display: inline-block;
+                }
+                @for $i from 1 through 100{
+                span:nth-child(#{$i}){
+                    transition-delay: #{$i * 0.05}s;
+                }
+                }
+            }
+        &.on{
+            p{
+                span{
+                    opacity: 1;
+                    transform: translate(0%,0%);
+                }
+            }
+        }
+        }
+        .contentTitle2{
+            z-index: 1001;
+            position: absolute;
+            top: 55px;
+            display: flex;
+            p.small{
+                font-family: 'aktiv-grotesk', 'AppleSDGothicNeo', sans-serif;
+                margin-left: 24px;
+                transform: translate(0%,40%);
+                vertical-align: bottom;
+                font-size: 16px;
+            }
+            p.roman{
+                font-style: italic;
+                font-size: 40px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            p{
+                span{
+                    opacity: 0;
+                    transform: translate(0%,30%);
+                    transition-duration: 0.6s;
+                    display: inline-block;
+                }
+                @for $i from 1 through 100{
+                span:nth-child(#{$i}){
+                    transition-delay: #{0.3 + $i * 0.02}s;
+                }
+                }
+            }
+        &.on{
+            p{
+                span{
+                    opacity: 1;
+                    transform: translate(0%,0%);
+                }
+            }
+        }
+        }
+        .contentThumb{
+            position: relative;
+            z-index:1001;
+            width: 100%;
+            height: 100vw;
+            background-size: cover;
+            background-position: center ;
+            .whiteTape{
+                transition-duration: 0.9s;
+                position: absolute;
+                width: 100%;
+                height: 101%;
+                bottom: 0;
+                background-color: #ffffff;
+                transform:translate(0%,0%) scaleY(1);
+            }
+        &.on{
+            .whiteTape{
+                transform:translate(0%,50%) scaleY(0);
+            }
+        }
+        }
+        .textBox{
+            padding: 0 20px;
+            margin-top: 40px;
+            font-family: 'aktiv-grotesk', 'AppleSDGothicNeo', sans-serif;
+            h3{
+               font-size: 16px;
+               font-weight: 800; 
+               margin-bottom: 20px;
+               opacity: 0;
+               transform: translate(0%,30%);
+               transition-duration: 0.6s;
+            &.on{
+                opacity: 1;
+                transform: translate(0%,0%);
+                
+            }
+            }
+            p{
+                margin-top: 8px;
+                font-size: 14px;
+                color: #999999;
+                opacity: 0;
+                transform: translate(0%,30%);
+                transition-duration: 0.6s;
+            &.on{
+                opacity: 1;
+                transform: translate(0%,0%);
+            }
+            }
+        }
+    }
+    .content:nth-child(1){
+        .contentThumb{
+            background-image: url(/img/recruit_thumb1.jpg);
+        }
+    }
+    .content:nth-child(2){
+        .contentThumb{
+            background-image: url(/img/recruit_thumb2.jpg);
+        }
+    }
+    .content:nth-child(3){
+        .contentThumb{
+            background-image: url(/img/recruit_thumb3.jpg);
+        }
+    }
+    .content:nth-child(4){
+        .contentThumb{
+            background-image: url(/img/recruit_thumb4.jpg);
+        }
+        
+    }
+}
+@media screen and (min-width:700px){
+    main{padding: 80px 60px 23vh;}
+    .guide-nav-bar{
+        top: 100px;
+        left: 60px;
+        li{
+            p{
+                font-size: 14px;
+            }
+            
+        }
+        li:nth-child(1) {
+            p{font-weight:500;}
+        }
+    }
+    h2{
+        font-size: 80px;margin-top: 80px;
+    }
+    .mainTitle{
+        .textBox{
+            .big{
+                font-size: 48px;
+                line-height: 52px;
+            }
+            .small{
+                margin-top: 30px;
+                font-size: 18px;
+                line-height: 24px;
+            }
+        }
+    }
+    .mainHeader{
+        margin-top: 90px;
+        margin-bottom: 310px;
+    }
+    .sect1{
+        margin: 0px 0 280px;
+        .row{
+            margin: 60px 0 100px;
+        }
+        .intro{
+            font-size: 28px;
+            padding: 0 0 100px;
+        }
+        .num{
+            margin-bottom: 30px;
+            font-weight: 700;
+            font-size: 30px;
+        }
+        .big{
+            margin-bottom: 20px;
+            font-size: 22px;
+        }
+        .small{
+            margin-bottom: 100px;
+            font-size: 18px;
+            line-height: 22px;
+            width: 70%;
+        }
+    }
+    .sect2{
+        .content{
+            margin-top: 100px;
+            .contentTitle{
+                margin-bottom: 22px;
+            }
+            .contentTitle2{
+                top: 55px;
+                p.small{
+                    margin-left: 24px;
+                    font-size: 18px;
+                }
+                p.roman{
+                    font-size: 48px;
+                }
+            }
+            .textBox{
+                padding: 0 20px;
+                margin-top: 40px;
+                h3{
+                   font-size: 24px;
+                   margin-bottom: 20px;
+                }
+                p{
+                    margin-top: 8px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:1023px){
+    main{padding: 80px 80px 23vh;}
+    .guide-nav-bar{
+        top: 100px;
+        left: 80px;
+        li{
+            p{
+                font-size: 14px;
+            }
+        }
+        li:nth-child(1) {
+            p{font-weight:500;}
+        }
+    }
+    h2{
+        font-size: 80px;margin-top: 80px;
+    }
+    .mainTitle{
+        .textBox{
+            .big{
+                font-size: 48px;
+                line-height: 52px;
+            }
+            .small{
+                margin-top: 30px;
+                font-size: 18px;
+                line-height: 24px;
+            }
+        }
+    }
+    .mainHeader{
+        margin-top: 90px;
+        margin-bottom: 310px;
+    }
+    .sect1{
+        margin: 0px 0 280px;
+        .row{
+            margin: 60px 0 100px;
+        }
+        .intro{
+            font-size: 28px;
+            padding: 0 0 100px;
+        }
+        .num{
+            margin-bottom: 30px;
+            font-weight: 700;
+            font-size: 30px;
+        }
+        .big{
+            margin-bottom: 20px;
+            font-size: 22px;
+        }
+        .small{
+            margin-bottom: 100px;
+            font-size: 18px;
+            line-height: 22px;
+            width: 70%;
+        }
+    }
+    .sect2{
+        .content{
+            margin-top: 100px;
+            .contentTitle{
+                margin-bottom: 22px;
+            }
+            .contentTitle2{
+                top: 55px;
+                p.small{
+                    margin-left: 24px;
+                    font-size: 18px;
+                }
+                p.roman{
+                    font-size: 48px;
+                }
+            }
+            .textBox{
+                padding: 0 20px;
+                margin-top: 40px;
+                h3{
+                   font-size: 24px;
+                   margin-bottom: 20px;
+                }
+                p{
+                    margin-top: 8px;
+                    font-size: 18px;
+                }
+            }
+            .contentThumb{
+                max-width: 700px;
+                margin: auto;
+            }
+        }
+    }
+}

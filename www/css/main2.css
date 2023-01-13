@@ -1,0 +1,117 @@
+
+@keyframes titleAnimation {
+    0% {transform: translateY(200px);opacity: 1;}
+  100% {transform: translateY(0);opacity: 1;}
+}
+@keyframes titleAnimationRev {
+    0% {transform: translateY(0px);opacity: 1;}
+  100% {transform: translateY(200px);opacity: 1;}
+}
+.content .contentWrap .sect.sect3 .sectWrap .videoContent .videoWrap .videoContainer{transform: translate(0,101%);}
+.content .contentWrap .sect .sectWrap div.sectTitle div.titleLine{font-size: 120px;}
+.content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle .small span,
+.content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle p{word-break: keep-all;}
+.content .contentWrap .sect.sect4 .sectTitle .titleLine div{font-size: clamp(120px, 16.5vw, 260px);}
+@media all and (max-width:1380px){
+    .content .contentWrap .sect .sectWrap div.sectTitle{left: 15.5%;}
+    .content .contentWrap .sect.sect2.on .sectWrap .bg{width: 68.2%;left: 50%;height: 83.5%;}
+    .content .contentWrap .sect.sect2.on .sectWrap div.sectTitle .titleLine p{font-size: 210px;}
+    .content .contentWrap .sect.sect2.showWithus .sectWrap div.sectTitle .titleLine p{font-size: 100px;}
+    .content .contentWrap .sect.sect3 .sectWrap .videoContent{top: 50%;transform: translate(0,-50%);}
+    .content .contentWrap .sect.sect2.showWithus .sectWrap div.sectTitle{top: 20%;transform: translate(0,-50%);}
+
+    .content .contentWrap .sect.sect3 .sectWrap .videoContent{left: 50%;}
+    .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle1{left: 16%;}
+
+    .content .contentWrap .sect.sect4 .sectTitle{left: 50%;}
+    .content .contentWrap .sect.sect4 .sectTitle .titleLine div{font-size: clamp(80px, 14vw, 260px);}
+}
+@media all and (max-width:1280px){
+    .content .contentWrap .sect .sectWrap div.sectTitle div.titleLine{font-size: 100px;}
+    .content .contentWrap .sect.sect2.on .sectWrap div.sectTitle .titleLine p{font-size: 180px;}
+    .content .contentWrap .sect.sect2.showWithus .sectWrap div.sectTitle .titleLine p{font-size: 80px;}
+}
+@media all and (max-width:1024px){
+    .content .contentWrap .sect .sectWrap div.sectTitle div.titleLine{font-size: 80px;}
+    .content .contentWrap .sect.sect2.showWithus .sectWrap div.sectTitle .titleLine p{font-size: 60px;}
+    .content .contentWrap .sect.sect2.on .sectWrap div.sectTitle .titleLine p{font-size: 150px;}
+    .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle1{left: 16%;}
+    .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle p{font-size: 24px;line-height: 1.33;}
+    .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle .small{font-size: 14px;}
+
+    .sect3 .sectWrap{display: flex;justify-content: space-between;align-items: center;flex-direction: row-reverse;padding: 0 16%;}
+    .content .contentWrap .sect.sect3 .sectWrap .videoContent,
+    .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle{position: relative;transform: translate(0,0);top: unset;left: unset;bottom: unset;right: unset;width: 50%;}
+}
+@media all and (max-width:768px){
+    .content .contentWrap .sect .sectWrap div.sectTitle div.titleLine{font-size: 60px;}
+    .content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.memo{font-size: 16px;}
+    .content .contentWrap .sect.sect2.on .sectWrap div.sectTitle .titleLine p{font-size: 100px;}
+    .content .contentWrap .sect.sect2.showWithus .sectWrap div.sectTitle{top: 180px;}
+    .content .contentWrap .sect.sect2.showWithus{width: 84%;}
+    .sect3 .sectWrap{flex-direction: column;justify-content: center;}
+    .content .contentWrap .sect.sect3 .sectWrap .videoContent, .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle{width: 100%;}
+    .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle .big{display: flex;}
+    .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle p{letter-spacing: -0.02em;line-height: 1;margin-top: 1em;}
+    .content .contentWrap .sect.sect3 .sectWrap div.sectSubTitle .small{margin-top: 1.5em;}
+    .content .contentWrap .sect.sect4 .sectTitle{left: 16%;}
+    .content .contentWrap .sect.sect5 .sect5Content p.exp{font-size: 13px;}
+}
+@media all and (max-width:580px){
+    .content .contentWrap .sect .sectWrap div.sectTitle div.titleLine{font-size: 50px;}
+    .content .contentWrap .sect.sect2.on .sectWrap div.sectTitle .titleLine p{font-size: 80px;}
+}
+@media all and (max-width:480px){
+    .content .contentWrap .sect .sectWrap div.sectTitle div.titleLine{font-size: 40px;}
+    .content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.memo{font-size: 14px;}
+}
+@media all and (max-width:380px){
+    .content .contentWrap .sect .sectWrap div.sectTitle div.titleLine{font-size: 32px;}
+    .content .contentWrap .sect.sect2.on .sectWrap div.sectTitle .titleLine p{font-size: 60px;}
+}
+
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle > div:nth-child(2) .real{transition-delay: 0.2s;}
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle > div:nth-child(3) .real{transition-delay: 0.4s;}
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle > div:nth-child(4) .real{transition-delay: 0.6s;}
+.content .contentWrap .sect.sect1 .sectWrap div.sectTitle div.titleLine .real{animation: none;opacity: 1;transition-duration: 1s;transform: translateY(100px);}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle div.titleLine .real{animation: none;opacity: 1;}
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(1),
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(2),
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(3),
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(4),
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(5),
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(6),
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(7),
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit span:nth-child(8),
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(1),
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(2),
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(3),
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(4),
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(5),
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(6),
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(7),
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(8),
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(9),
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(10),
+.content .contentWrap .sect.sect1.on .sectWrap div.sectTitle .wordSplit2 span:nth-child(11){animation: none;}
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle .wordSplit span:nth-child(1){animation: 0.6s 1s titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;}
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle .wordSplit span:nth-child(2){animation: 0.6s 1.05s titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;}
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle .wordSplit span:nth-child(3){animation: 0.6s 1.1s titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;}
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle .wordSplit span:nth-child(4){animation: 0.6s 1.15s titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;}
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle .wordSplit span:nth-child(5){animation: 0.6s 1.2s titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;}
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle .wordSplit span:nth-child(6){animation: 0.6s 1.25s titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;}
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle .wordSplit span:nth-child(7){animation: 0.6s 1.3s titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;}
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle .wordSplit span:nth-child(8){animation: 0.6s 1.35s titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;}
+
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle .wordSplit2 span:nth-child(1){animation: 0.6s 1s titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;}
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle .wordSplit2 span:nth-child(2){animation: 0.6s 1.05s titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;}
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle .wordSplit2 span:nth-child(3){animation: 0.6s 1.1s titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;}
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle .wordSplit2 span:nth-child(4){animation: 0.6s 1.15s titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;}
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle .wordSplit2 span:nth-child(5){animation: 0.6s 1.2s titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;}
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle .wordSplit2 span:nth-child(6){animation: 0.6s 1.25s titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;}
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle .wordSplit2 span:nth-child(7){animation: 0.6s 1.3s titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;}
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle .wordSplit2 span:nth-child(8){animation: 0.6s 1.35s titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;}
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle .wordSplit2 span:nth-child(9){animation: 0.6s 1.4s titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;}
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle .wordSplit2 span:nth-child(10){animation: 0.6s 1.45s titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;}
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle .wordSplit2 span:nth-child(11){animation: 0.6s 1.5s titleAnimation cubic-bezier(0.02, 0.35, 0.11, 0.97) forwards;}
+.content .contentWrap .sect.sect1.init .sectWrap div.sectTitle div.titleLine .real{transform: translateY(0);}

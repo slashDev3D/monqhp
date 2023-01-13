@@ -1,0 +1,412 @@
+$primary-color: #e0b13d !default;
+$secondary-color: #c40c1a !default;
+$gray:#999999 !default;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 100;
+  src: url(../font/AppleSDGothicNeoT.woff2) format('woff2'),
+       url(../font/AppleSDGothicNeoT.woff) format('woff'),
+       url(../font/AppleSDGothicNeoT.otf) format('opentype');
+}
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 200;
+  src: url(../font/AppleSDGothicNeoUL.woff2) format('woff2'),
+       url(../font/AppleSDGothicNeoUL.woff) format('woff'),
+       url(../font/AppleSDGothicNeoUL.otf) format('opentype');
+}
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/AppleSDGothicNeoL.woff2) format('woff2'),
+       url(../font/AppleSDGothicNeoL.woff) format('woff'),
+       url(../font/AppleSDGothicNeoL.otf) format('opentype');
+}
+@font-face {
+   font-family: 'AppleSDGothicNeo';
+   font-style: normal;
+   font-weight: 400;
+   src: url(../font/AppleSDGothicNeoR.woff2) format('woff2'),
+        url(../font/AppleSDGothicNeoR.woff) format('woff'),
+        url(../font/AppleSDGothicNeoR.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'AppleSDGothicNeo';
+   font-style: normal;
+   font-weight: 500;
+   src: url(../font/AppleSDGothicNeoM.woff2) format('woff2'),
+        url(../font/AppleSDGothicNeoM.woff) format('woff'),
+        url(../font/AppleSDGothicNeoM.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'AppleSDGothicNeo';
+   font-style: normal;
+   font-weight: 600;
+   src: url(../font/AppleSDGothicNeoSB.woff2) format('woff2'),
+        url(../font/AppleSDGothicNeoSB.woff) format('woff'),
+        url(../font/AppleSDGothicNeoSB.otf) format('opentype');
+ }
+ @font-face {
+   font-family: 'AppleSDGothicNeo';
+   font-style: normal;
+   font-weight: 700;
+   src: url(../font/AppleSDGothicNeoB.woff2) format('woff2'),
+        url(../font/AppleSDGothicNeoB.woff) format('woff'),
+        url(../font/AppleSDGothicNeoB.otf) format('opentype');
+ }
+ @font-face {
+   font-family: 'AppleSDGothicNeo';
+   font-style: normal;
+   font-weight: 800;
+   src: url(../font/AppleSDGothicNeoEB.woff2) format('woff2'),
+        url(../font/AppleSDGothicNeoEB.woff) format('woff'),
+        url(../font/AppleSDGothicNeoEB.otf) format('opentype');
+ }
+ @font-face {
+   font-family: 'AppleSDGothicNeo';
+   font-style: normal;
+   font-weight: 900;
+   src: url(../font/AppleSDGothicNeoH.woff2) format('woff2'),
+        url(../font/AppleSDGothicNeoH.woff) format('woff'),
+        url(../font/AppleSDGothicNeoH.otf) format('opentype');
+ }
+
+
+
+ /***********************/
+//  @font-face {
+//     font-family: 'Helvetica';
+//     font-style: normal;
+//     font-weight: 300;
+//     src: url(../font/Helvetica_Light.woff2) format('woff2'),
+//          url(../font/Helvetica_Light.woff) format('woff'),
+//          url(../font/Helvetica_Light.otf) format('opentype');
+//   }
+//   @font-face {
+//      font-family: 'Helvetica';
+//      font-style: normal;
+//      font-weight: 400;
+//      src: url(../font/Helvetica_Regualr.woff2) format('woff2'),
+//           url(../font/Helvetica_Regualr.woff) format('woff'),
+//           url(../font/Helvetica_Regualr.otf) format('opentype');
+//    }
+//   @font-face {
+//      font-family: 'Helvetica';
+//      font-style: normal;
+//      font-weight: 600;
+//      src: url(../font/Helvetica75-Bold.woff2) format('woff2'),
+//           url(../font/Helvetica75-Bold.woff) format('woff'),
+//           url(../font/Helvetica75-Bold.otf) format('opentype');
+//    }
+//    @font-face {
+//      font-family: 'Helvetica';
+//      font-style: normal;
+//      font-weight: 900;
+//      src: url(../font/Helvetica95-Black.woff2) format('woff2'),
+//           url(../font/Helvetica95-Black.woff) format('woff'),
+//           url(../font/Helvetica95-Black.otf) format('opentype');
+//    }
+  
+  
+ /***********************/
+
+ @font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 100;
+  src: url(../font/NotoSansKR-Thin.woff2) format('woff2'),
+       url(../font/NotoSansKR-Thin.woff) format('woff'),
+       url(../font/NotoSansKR-Thin.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 200;
+  src: url(../font/NotoSansKR-DemiLight.woff2) format('woff2'),
+       url(../font/NotoSansKR-DemiLight.woff) format('woff'),
+       url(../font/NotoSansKR-DemiLight.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/NotoSansKR-Light.woff2) format('woff2'),
+       url(../font/NotoSansKR-Light.woff) format('woff'),
+       url(../font/NotoSansKR-Light.otf) format('opentype');
+}
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 400;
+   src: url(../font/NotoSansKR-Regular.woff2) format('woff2'),
+        url(../font/NotoSansKR-Regular.woff) format('woff'),
+        url(../font/NotoSansKR-Regular.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 500;
+   src: url(../font/NotoSansKR-Medium.woff2) format('woff2'),
+        url(../font/NotoSansKR-Medium.woff) format('woff'),
+        url(../font/NotoSansKR-Medium.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 600;
+   src: url(../font/NotoSansKR-Bold.woff2) format('woff2'),
+        url(../font/NotoSansKR-Bold.woff) format('woff'),
+        url(../font/NotoSansKR-Bold.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'Noto Sans KR';
+   font-style: normal;
+   font-weight: 900;
+   src: url(../font/NotoSansKR-Black.woff2) format('woff2'),
+        url(../font/NotoSansKR-Black.woff) format('woff'),
+        url(../font/NotoSansKR-Black.otf) format('opentype');
+ }
+
+
+
+
+@keyframes whiteTape{
+    0%{transform:translateX(0%) scaleX(1) scaleY(1.5);}
+    100%{transform:translateX(50%) scaleX(0) scaleY(1.5);}
+}
+div.curtainCall{
+    div.curtain{
+        .border{
+            background-color: rgba(0, 0, 0, 0.1);
+        } 
+    }
+}
+.scrollAnimation{
+    .bar{
+        background-color: rgba(0, 0, 0, 0.1);
+        .point{
+            background-color: rgb(0, 0, 0);
+        }
+    }
+    .ball{
+        color: #000000;
+    }
+}
+.link-language{
+    a{
+        color: rgba(0, 0, 0, 0.5);
+        span{
+            background-color: #000000;
+        }
+    &.on{
+        color: #000000;
+    }
+    }
+}
+.link-portfolio{
+    a{
+        color: #000000;
+    }
+}
+.link-works{
+    a{
+        p{
+            color: #000000;
+        }
+        svg{
+            .cls-1{
+                fill: #000000;
+            }
+        }
+    }
+}
+.none800{
+    display: none;
+}
+aside.side{
+    .btn-ham{
+        .rel{
+            span{
+                background-color: #000000;
+            }
+        }
+    }
+    .sns-btn{
+        svg{
+            .cls-1{
+                fill: #000000;
+            }
+        }
+    }
+}
+.main{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    .mainBox{
+        position: absolute;
+        width: 17.2%;
+        h3{
+            // font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue";
+            font-family: 'aktiv-grotesk', 'AppleSDGothicNeo';
+            font-size: 2.6vw;
+            font-weight: 600;
+            color: #000000;
+        }
+        .mid-line{
+            margin-top: 1vw;
+            width: calc(100% - 1px);
+            height: 3px;
+            background-color: #000000;
+        }
+        .exp{
+            font-family: 'aktiv-grotesk', 'AppleSDGothicNeo';
+            margin-top: 2vw;
+            font-size: 15px;
+        }
+        a{//this is download btn
+            margin: 0;
+            display: inline-block;
+            // display: flex;
+            // justify-content: space-between;
+            border: 1px solid #000;
+            margin-top: 40px;
+            padding: 20px 24px;
+            background-color: #000;
+            transition-duration: 0.3s;
+            p{
+                display: inline-block;
+                transition-duration: 0.3s;
+                font-size: 14px;
+                letter-spacing: -0.2px;
+                color: #fff;
+                font-weight: 500;
+                font-family: 'aktiv-grotesk', 'AppleSDGothicNeo';
+            }
+            img{
+                display: inline-block;
+                margin: 0 12px -1px 0;
+                width: 16px;
+                height: 16px;
+            }
+        }
+        a.on{
+            background-color: #fff;
+            p{
+                color: #000;
+            }
+        }
+        a.not-download{background-color: unset;border: unset;padding: unset;}
+        .whiteTape{
+            position: absolute;
+            width: calc(100% - 1px);
+            height: 101%;
+            background-color: #fff;
+            border: 1px solid rgba(0, 0, 0, 0);
+            top: 0;
+            left: 0;
+            transform:translateX(0%) scaleX(1);
+        }
+    }
+    .mainBox:nth-child(1) .whiteTape{animation:0.8s 0.3s  whiteTape cubic-bezier(0.07, 0.43, 0.45, 0.98) forwards;}
+    .mainBox:nth-child(2) .whiteTape{animation:0.8s 0.8s  whiteTape cubic-bezier(0.07, 0.43, 0.45, 0.98) forwards;}
+    .mainBox:nth-child(3) .whiteTape{animation:0.8s 0.6s  whiteTape cubic-bezier(0.07, 0.43, 0.45, 0.98) forwards;}
+    .mainBox:nth-child(4) .whiteTape{animation:0.8s 0.6s  whiteTape cubic-bezier(0.07, 0.43, 0.45, 0.98) forwards;}
+    .mainBox:nth-child(5) .whiteTape{animation:0.8s 0.3s  whiteTape cubic-bezier(0.07, 0.43, 0.45, 0.98) forwards;}
+    .box-email,.box-address,.box-portfolio{
+        top: 200px;
+    }
+    .box-email{
+        left: 16%;
+    }
+    .box-address{
+        left: 42%;
+    }
+    .box-portfolio{
+        left: 67%;
+    }
+    .box-call{
+        top: 200px;
+        left: 67%;
+        p.exp{
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+    .box-profile{
+        top: calc(500px - 3.6vw);
+        left: 42%;
+    }
+    .box-portfolio{
+        top: 496px;
+        left: 16%;
+    }
+}
+@media screen and (min-width:1050px){
+    .main{
+        .mainBox{
+            a{//this is download btn
+                margin: 0;
+                border: 1px solid #000;
+                margin-top: 40px;
+                padding: 20px 24px;
+                background-color: #000;
+                p{
+                    font-size: 14px;
+                    letter-spacing: -0.2px;
+                    color: #fff;
+                    font-weight: 500;
+                    font-family: 'aktiv-grotesk', 'AppleSDGothicNeo';
+                }
+                img{
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+        }
+    }
+    .none800{
+        display: block;
+    }
+}
+@media screen and (min-width:1280px){
+    .main{
+        .mainBox{
+            width:15%;
+        }
+        .box-email,.box-address,.box-portfolio{
+            top: 300px;
+        }
+        .box-email{
+            left: 17.5%;
+        }
+        .box-address{
+            left: 47.5%;
+        }
+        .box-portfolio{
+            left: 77.5%;
+        }
+        .box-call{
+            top: 600px;
+            left: 32.5%;
+        }
+        .box-profile{
+            top: calc(600px - 3.6vw);
+            left: 62.5%;
+        }
+        @for $i from 1 through 5{
+            .mainBox:nth-child(#{$i}){
+                .whiteTape{
+                    animation:0.8s #{0.3 + $i/4.5}s  whiteTape cubic-bezier(0.07, 0.43, 0.45, 0.98) forwards;
+                }
+            }
+        }
+    }
+}

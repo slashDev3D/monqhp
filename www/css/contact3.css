@@ -1,0 +1,22 @@
+.main .box-email, .main .box-address, .main .box-portfolio{top: 20vh;}
+@media all and (max-width:1380px){
+    .main .box-call,
+    .main .box-address,
+    .main .box-email{left: 16%;}
+    .main .box-address{top: 80vh;transform: translateY(-50%);}
+    .main .box-call{top: 50vh;transform: translateY(-50%);}
+    .main .box-profile,
+    .main .box-portfolio{left: 50%;}
+    .main .box-profile{top: 80vh;transform: translateY(-50%);}
+    .main .mainBox{min-width: 220px;}
+    .main .mainBox h3{font-size: 32px;}
+    .main .mainBox a{padding: 0 16px; display: flex;align-items: center;justify-content: flex-start;width: 180px;height: 52px;}
+}
+@media all and (max-width:768px){
+    .main{padding: 10vh 80px 10vh 16%;display: flex;flex-direction: column;gap: 28px;}
+    .main .mainBox{position: relative;width: 100%;transform: unset;top: unset;left: unset;right: unset;bottom: unset;padding-right: 80px;}
+    .main .mainBox h3{font-size: 24px;font-weight: 500;}
+    .main .box-call p.exp{font-size: 16px;}
+    .main .mainBox .mid-line{height: 2px;background-color: rgba(0,0,0,0.5);}
+    .main .mainBox a{margin-top: 24px;height: 44px;}
+}

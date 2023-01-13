@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 100;
+  src: url(../font/AppleSDGothicNeoT.woff2) format("woff2"), url(../font/AppleSDGothicNeoT.woff) format("woff"), url(../font/AppleSDGothicNeoT.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 200;
+  src: url(../font/AppleSDGothicNeoUL.woff2) format("woff2"), url(../font/AppleSDGothicNeoUL.woff) format("woff"), url(../font/AppleSDGothicNeoUL.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/AppleSDGothicNeoL.woff2) format("woff2"), url(../font/AppleSDGothicNeoL.woff) format("woff"), url(../font/AppleSDGothicNeoL.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/AppleSDGothicNeoR.woff2) format("woff2"), url(../font/AppleSDGothicNeoR.woff) format("woff"), url(../font/AppleSDGothicNeoR.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../font/AppleSDGothicNeoM.woff2) format("woff2"), url(../font/AppleSDGothicNeoM.woff) format("woff"), url(../font/AppleSDGothicNeoM.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../font/AppleSDGothicNeoSB.woff2) format("woff2"), url(../font/AppleSDGothicNeoSB.woff) format("woff"), url(../font/AppleSDGothicNeoSB.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../font/AppleSDGothicNeoB.woff2) format("woff2"), url(../font/AppleSDGothicNeoB.woff) format("woff"), url(../font/AppleSDGothicNeoB.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 800;
+  src: url(../font/AppleSDGothicNeoEB.woff2) format("woff2"), url(../font/AppleSDGothicNeoEB.woff) format("woff"), url(../font/AppleSDGothicNeoEB.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 900;
+  src: url(../font/AppleSDGothicNeoH.woff2) format("woff2"), url(../font/AppleSDGothicNeoH.woff) format("woff"), url(../font/AppleSDGothicNeoH.otf) format("opentype");
+}
+
+/***********************/
+/***********************/
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 100;
+  src: url(../font/NotoSansKR-Thin.woff2) format("woff2"), url(../font/NotoSansKR-Thin.woff) format("woff"), url(../font/NotoSansKR-Thin.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 200;
+  src: url(../font/NotoSansKR-DemiLight.woff2) format("woff2"), url(../font/NotoSansKR-DemiLight.woff) format("woff"), url(../font/NotoSansKR-DemiLight.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/NotoSansKR-Light.woff2) format("woff2"), url(../font/NotoSansKR-Light.woff) format("woff"), url(../font/NotoSansKR-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/NotoSansKR-Regular.woff2) format("woff2"), url(../font/NotoSansKR-Regular.woff) format("woff"), url(../font/NotoSansKR-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../font/NotoSansKR-Medium.woff2) format("woff2"), url(../font/NotoSansKR-Medium.woff) format("woff"), url(../font/NotoSansKR-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../font/NotoSansKR-Bold.woff2) format("woff2"), url(../font/NotoSansKR-Bold.woff) format("woff"), url(../font/NotoSansKR-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 900;
+  src: url(../font/NotoSansKR-Black.woff2) format("woff2"), url(../font/NotoSansKR-Black.woff) format("woff"), url(../font/NotoSansKR-Black.otf) format("opentype");
+}
+
+main {
+  padding: 120px 20px 0;
+  padding-bottom: 180px;
+}
+
+.row {
+  width: 100%;
+  display: block;
+  margin-top: 80px;
+}
+
+.row1 {
+  text-align: left;
+}
+
+.row2 {
+  text-align: right;
+}
+
+.big {
+  font-weight: 600;
+  display: inline-block;
+  width: 70%;
+  font-size: 40px;
+  padding-bottom: 14px;
+}
+
+.line {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 60%;
+  height: 2px;
+  background-color: #000000;
+}
+
+.small {
+  color: #999999;
+  font-family: 'aktiv-grotesk', 'AppleSDGothicNeo', sans-serif;
+  font-size: 16px;
+}
+
+.black-btn {
+  font-family: 'aktiv-grotesk', 'AppleSDGothicNeo', sans-serif;
+  display: inline-block;
+  padding: 20px 40px;
+  background-color: #000000;
+}
+
+.black-btn p {
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 0px;
+  float: right;
+}
+
+.black-btn img {
+  display: inline-block;
+  height: 14px;
+}
+
+.row span {
+  display: inline-block;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  opacity: 0;
+  -webkit-transform: translate(0%, 30%);
+          transform: translate(0%, 30%);
+}
+
+.row .line {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  width: 0%;
+}
+
+.row .small, .row .black-btn {
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  opacity: 0;
+  -webkit-transform: translate(0%, 30%);
+          transform: translate(0%, 30%);
+}
+
+.row.on span {
+  opacity: 1;
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+}
+
+.row.on span:nth-child(1) {
+  -webkit-transition-delay: 0.05s;
+          transition-delay: 0.05s;
+}
+
+.row.on span:nth-child(2) {
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.row.on span:nth-child(3) {
+  -webkit-transition-delay: 0.15s;
+          transition-delay: 0.15s;
+}
+
+.row.on span:nth-child(4) {
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.row.on span:nth-child(5) {
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+
+.row.on span:nth-child(6) {
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+.row.on span:nth-child(7) {
+  -webkit-transition-delay: 0.35s;
+          transition-delay: 0.35s;
+}
+
+.row.on span:nth-child(8) {
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+.row.on span:nth-child(9) {
+  -webkit-transition-delay: 0.45s;
+          transition-delay: 0.45s;
+}
+
+.row.on span:nth-child(10) {
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+.row.on span:nth-child(11) {
+  -webkit-transition-delay: 0.55s;
+          transition-delay: 0.55s;
+}
+
+.row.on span:nth-child(12) {
+  -webkit-transition-delay: 0.6s;
+          transition-delay: 0.6s;
+}
+
+.row.on .line {
+  width: 70%;
+  max-width: 300px;
+}
+
+.row.on .small, .row.on .black-btn {
+  opacity: 1;
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+}
+
+nav .navham span {
+  background-color: #000000;
+}
+
+nav .navham.black span {
+  background-color: #000000;
+}
+
+nav .navham.white span {
+  background-color: #ffffff;
+}
+
+@media screen and (min-width: 700px) {
+  main {
+    padding: 120px 60px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  main {
+    padding: 120px 80px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

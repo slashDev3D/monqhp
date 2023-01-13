@@ -1,0 +1,88 @@
+<div class="rightPop--wrap">
+    <div class="rightPop--content">
+        <div class="rightPop--choice">
+            <div class="rightPop--choice-text01">문의사항을 선택해주세요</div>
+            <div id="rightPopProjectRequest" class="rightPop--choice-text02">프로젝트 문의</div>
+            <div id="rightPopCompanyRegister" class="rightPop--choice-text02">협력사 등록 의뢰</div>
+        </div>
+        <div id="rightPopFormContainer" class="rightPop--form-container">
+            <div id="rightPopProjectRequestForm">
+                <form class="gform" id="gform01" method="POST"
+                action="https://script.google.com/macros/s/AKfycbzRYY01HAv3E4VuHj62uTVxOzuqKI7Ny-0Mg8-WRF2V9vCi8zCXwQZpzPxFZ6Qxe9WCBQ/exec"
+                class="mt-5 form-contact slideanim">
+                <div class="row">
+                    <div class="form-title">프로젝트 문의</div>
+                    <div class="form-group col-sm-6">
+                        <label for="company_name" class="blind">회사명</label>
+                        <input type="text" class="form-control" id="company_name" name="company_name" placeholder="회사명">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="budget" class="blind">예산</label>
+                        <input type="text" class="form-control" id="budget" name="budget" placeholder="예산">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="exp" class="blind">의뢰 내용</label>
+                        <input type="text" class="form-control" id="exp" name="exp" placeholder="의뢰 내용">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="touch" class="blind">담당자 / 연락처</label>
+                        <input type="text" class="form-control" id="touch" name="touch" placeholder="담당자 / 연락처">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="link" class="blind">링크</label>
+                        <input type="text" class="form-control" id="link" name="link" placeholder="링크">
+                    </div>
+                </div>
+                <button data-mouse data-mouse-text="submit" id="submit01Btn" type="submit" class="btn-primary">문의하기</button>
+            </form>
+            </div>
+            <div id="rightPopCompanyRegisterForm">
+                <form class="gform" id="gform02" method="POST"
+                action="https://script.google.com/macros/s/AKfycbwNflU8A2e3X6MC8drb-Hssu3yZ9GHB-7HNJSLVR4YxNEdBACmSce9F2ZQ_tOq7o0Mh/exec"
+                class="mt-5 form-contact slideanim">
+                <div class="row">
+                    <div class="form-title">협력사 등록 의뢰</div>
+                    <div class="form-group col-sm-6">
+                        <label for="company_name" class="blind">회사/프리랜서 명</label>
+                        <input type="text" class="form-control" id="company_name" name="company_name" placeholder="회사/프리랜서명">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="act_area" class="blind">활동 영역</label>
+                        <input type="text" class="form-control" id="act_area" name="act_area" placeholder="활동 영역">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="act_range" class="blind">업무 범위</label>
+                        <input type="text" class="form-control" id="act_range" name="act_range" placeholder="업무 범위">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="touch" class="blind">연락처</label>
+                        <input type="text" class="form-control" id="touch" name="touch" placeholder="연락처">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="link" class="blind">링크</label>
+                        <input type="text" class="form-control" id="link" name="link" placeholder="링크">
+                    </div>
+                </div>
+                <button data-mouse data-mouse-text="submit" type="submit" class="btn-primary">문의하기</button>
+            </form>
+            </div>
+        </div>
+    </div>
+    <div id="loadingPopup" class="loadingPopup">
+        <div class="loadingPopup--bg"></div>
+        <div id="loadingPopupText" class="loadingPopup--text">
+            <div id="formWaitingText" class="loadingPopup--textBox">
+                <p>문의사항을 보내는 중입니다.</p>
+            </div>
+            <div id="formConfirmedText" class="loadingPopup--textBox">
+                <p>접수가 완료되었습니다. <br>담당자 확인 후 연락드리겠습니다.</p>
+                <div id="formClose">확인</div>
+            </div>
+        </div>
+    </div>
+    <div class="rightPop--form-back"><span></span></div>
+    <div id="rightPopClose" class="rightPopClose">
+        <span></span>
+        <span></span>
+    </div>
+</div>

@@ -1,0 +1,3 @@
+main .sect2 .sect2head .roman,
+main .sect3 .sect3head .roman{transform:translate(0,-0.1em)}
+main .sect3 .sect3-content .exp{word-break: keep-all;}

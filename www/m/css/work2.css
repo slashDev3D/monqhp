@@ -1,0 +1,8 @@
+.mainThumb,.thumb-swiper{height: unset !important;}
+.mainThumb .slideWrap .slide{padding-top: 50%;}
+.mainThumb .slideWrap .slide.on{position: relative;}
+.thumb-swiper .swiper-slide{padding-top: 10%;}
+@media all and (max-width:1023px){
+    .thumb-swiper{height: unset;}
+    .thumb-swiper .swiper-slide{padding-top: 17%;}
+}

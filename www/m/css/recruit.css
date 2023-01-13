@@ -1,0 +1,1702 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 100;
+  src: url(../font/AppleSDGothicNeoT.woff2) format("woff2"), url(../font/AppleSDGothicNeoT.woff) format("woff"), url(../font/AppleSDGothicNeoT.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 200;
+  src: url(../font/AppleSDGothicNeoUL.woff2) format("woff2"), url(../font/AppleSDGothicNeoUL.woff) format("woff"), url(../font/AppleSDGothicNeoUL.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/AppleSDGothicNeoL.woff2) format("woff2"), url(../font/AppleSDGothicNeoL.woff) format("woff"), url(../font/AppleSDGothicNeoL.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/AppleSDGothicNeoR.woff2) format("woff2"), url(../font/AppleSDGothicNeoR.woff) format("woff"), url(../font/AppleSDGothicNeoR.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../font/AppleSDGothicNeoM.woff2) format("woff2"), url(../font/AppleSDGothicNeoM.woff) format("woff"), url(../font/AppleSDGothicNeoM.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../font/AppleSDGothicNeoSB.woff2) format("woff2"), url(../font/AppleSDGothicNeoSB.woff) format("woff"), url(../font/AppleSDGothicNeoSB.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../font/AppleSDGothicNeoB.woff2) format("woff2"), url(../font/AppleSDGothicNeoB.woff) format("woff"), url(../font/AppleSDGothicNeoB.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 800;
+  src: url(../font/AppleSDGothicNeoEB.woff2) format("woff2"), url(../font/AppleSDGothicNeoEB.woff) format("woff"), url(../font/AppleSDGothicNeoEB.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  font-style: normal;
+  font-weight: 900;
+  src: url(../font/AppleSDGothicNeoH.woff2) format("woff2"), url(../font/AppleSDGothicNeoH.woff) format("woff"), url(../font/AppleSDGothicNeoH.otf) format("opentype");
+}
+
+/***********************/
+/***********************/
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 100;
+  src: url(../font/NotoSansKR-Thin.woff2) format("woff2"), url(../font/NotoSansKR-Thin.woff) format("woff"), url(../font/NotoSansKR-Thin.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 200;
+  src: url(../font/NotoSansKR-DemiLight.woff2) format("woff2"), url(../font/NotoSansKR-DemiLight.woff) format("woff"), url(../font/NotoSansKR-DemiLight.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/NotoSansKR-Light.woff2) format("woff2"), url(../font/NotoSansKR-Light.woff) format("woff"), url(../font/NotoSansKR-Light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/NotoSansKR-Regular.woff2) format("woff2"), url(../font/NotoSansKR-Regular.woff) format("woff"), url(../font/NotoSansKR-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../font/NotoSansKR-Medium.woff2) format("woff2"), url(../font/NotoSansKR-Medium.woff) format("woff"), url(../font/NotoSansKR-Medium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../font/NotoSansKR-Bold.woff2) format("woff2"), url(../font/NotoSansKR-Bold.woff) format("woff"), url(../font/NotoSansKR-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 900;
+  src: url(../font/NotoSansKR-Black.woff2) format("woff2"), url(../font/NotoSansKR-Black.woff) format("woff"), url(../font/NotoSansKR-Black.otf) format("opentype");
+}
+
+main {
+  position: relative;
+  padding: 80px 20px 23vh;
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+}
+
+main.black {
+  background-color: #000000;
+}
+
+main.white {
+  background-color: #ffffff;
+}
+
+nav .navham span {
+  background-color: #000000;
+}
+
+.guide-line-wrap {
+  left: 0;
+}
+
+.guide-nav-bar {
+  z-index: 1002;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  max-width: 300px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+.guide-nav-bar li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.guide-nav-bar li p {
+  font-family: 'aktiv-grotesk', 'AppleSDGothicNeo', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1em;
+}
+
+.guide-nav-bar li:nth-child(1) p {
+  font-weight: 500;
+}
+
+.guide-nav-bar li.black p {
+  color: black;
+}
+
+.guide-nav-bar li.white p {
+  color: white;
+}
+
+.guide-nav-bar li.on p {
+  color: #c40c1a;
+}
+
+h2 {
+  font-size: 80px;
+  margin-top: 80px;
+}
+
+.opac0 {
+  opacity: 0 !important;
+}
+
+.scroll-event {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.mainTitle {
+  z-index: 1001;
+  position: relative;
+}
+
+.mainTitle .textBox {
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+  -webkit-transform: translate(0%, 10%);
+          transform: translate(0%, 10%);
+  top: 100%;
+  left: 25%;
+  position: absolute;
+}
+
+.mainTitle .textBox .big {
+  font-family: 'aktiv-grotesk', 'AppleSDGothicNeo', sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 800;
+}
+
+.mainTitle .textBox .small {
+  margin-top: 30px;
+  color: #999999;
+  font-family: 'aktiv-grotesk', 'AppleSDGothicNeo', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.mainTitle .textBox .small.black {
+  color: rgba(0, 0, 0, 0);
+}
+
+.mainHeader {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  margin-top: 90px;
+  margin-bottom: 310px;
+}
+
+img {
+  width: 100%;
+}
+
+.sect {
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.sect1 {
+  margin: 0px 0 260px;
+}
+
+.sect1 .intro, .sect1 .num, .sect1 .big, .sect1 .small {
+  color: #ffffff;
+  font-family: 'aktiv-grotesk', 'AppleSDGothicNeo', sans-serif;
+  font-weight: 600;
+}
+
+.sect1 .row {
+  overflow: hidden;
+  margin: 60px 0 100px;
+}
+
+.sect1 .row .line {
+  -webkit-transition-duration: 1.5s;
+          transition-duration: 1.5s;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.sect1 .row.on .line {
+  -webkit-transform: translate(0%, 0%) scaleX(1);
+          transform: translate(0%, 0%) scaleX(1);
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.sect1 .row1 .line {
+  -webkit-transform: translate(-50%, 0%) scaleX(0);
+          transform: translate(-50%, 0%) scaleX(0);
+}
+
+.sect1 .row1 .num {
+  opacity: 0;
+  -webkit-transform: translate(0%, 100%);
+          transform: translate(0%, 100%);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.sect1 .row1 .big {
+  opacity: 0;
+  -webkit-transform: translate(0%, 100%);
+          transform: translate(0%, 100%);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.sect1 .row1 .small {
+  opacity: 0;
+  -webkit-transform: translate(-100%, 0%);
+          transform: translate(-100%, 0%);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.sect1 .row1.on .num, .sect1 .row1.on .big, .sect1 .row1.on .small {
+  opacity: 1;
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+}
+
+.sect1 .row2 {
+  text-align: right;
+}
+
+.sect1 .row2 .line {
+  -webkit-transform: translate(50%, 0%) scaleX(0);
+          transform: translate(50%, 0%) scaleX(0);
+}
+
+.sect1 .row2 .num {
+  opacity: 0;
+  -webkit-transform: translate(0%, 100%);
+          transform: translate(0%, 100%);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.sect1 .row2 .big {
+  opacity: 0;
+  -webkit-transform: translate(0%, 100%);
+          transform: translate(0%, 100%);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.sect1 .row2 .small {
+  opacity: 0;
+  -webkit-transform: translate(100%, 0%);
+          transform: translate(100%, 0%);
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.sect1 .row2.on .num, .sect1 .row2.on .big, .sect1 .row2.on .small {
+  opacity: 1;
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+}
+
+.sect1 .intro {
+  font-size: 20px;
+  padding: 0 0 100px;
+}
+
+.sect1 .num {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.sect1 .big {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.sect1 .small {
+  margin-bottom: 100px;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 22px;
+  color: #999999;
+  width: 100%;
+}
+
+.sect2 .content {
+  margin-top: 100px;
+  position: relative;
+}
+
+.sect2 .content .contentTitle {
+  margin-bottom: 38px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.sect2 .content .contentTitle p span {
+  opacity: 0;
+  -webkit-transform: translate(0%, 30%);
+          transform: translate(0%, 30%);
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  display: inline-block;
+}
+
+.sect2 .content .contentTitle p span:nth-child(1) {
+  -webkit-transition-delay: 0.05s;
+          transition-delay: 0.05s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(2) {
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(3) {
+  -webkit-transition-delay: 0.15s;
+          transition-delay: 0.15s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(4) {
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(5) {
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(6) {
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(7) {
+  -webkit-transition-delay: 0.35s;
+          transition-delay: 0.35s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(8) {
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(9) {
+  -webkit-transition-delay: 0.45s;
+          transition-delay: 0.45s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(10) {
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(11) {
+  -webkit-transition-delay: 0.55s;
+          transition-delay: 0.55s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(12) {
+  -webkit-transition-delay: 0.6s;
+          transition-delay: 0.6s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(13) {
+  -webkit-transition-delay: 0.65s;
+          transition-delay: 0.65s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(14) {
+  -webkit-transition-delay: 0.7s;
+          transition-delay: 0.7s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(15) {
+  -webkit-transition-delay: 0.75s;
+          transition-delay: 0.75s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(16) {
+  -webkit-transition-delay: 0.8s;
+          transition-delay: 0.8s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(17) {
+  -webkit-transition-delay: 0.85s;
+          transition-delay: 0.85s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(18) {
+  -webkit-transition-delay: 0.9s;
+          transition-delay: 0.9s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(19) {
+  -webkit-transition-delay: 0.95s;
+          transition-delay: 0.95s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(20) {
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(21) {
+  -webkit-transition-delay: 1.05s;
+          transition-delay: 1.05s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(22) {
+  -webkit-transition-delay: 1.1s;
+          transition-delay: 1.1s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(23) {
+  -webkit-transition-delay: 1.15s;
+          transition-delay: 1.15s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(24) {
+  -webkit-transition-delay: 1.2s;
+          transition-delay: 1.2s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(25) {
+  -webkit-transition-delay: 1.25s;
+          transition-delay: 1.25s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(26) {
+  -webkit-transition-delay: 1.3s;
+          transition-delay: 1.3s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(27) {
+  -webkit-transition-delay: 1.35s;
+          transition-delay: 1.35s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(28) {
+  -webkit-transition-delay: 1.4s;
+          transition-delay: 1.4s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(29) {
+  -webkit-transition-delay: 1.45s;
+          transition-delay: 1.45s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(30) {
+  -webkit-transition-delay: 1.5s;
+          transition-delay: 1.5s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(31) {
+  -webkit-transition-delay: 1.55s;
+          transition-delay: 1.55s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(32) {
+  -webkit-transition-delay: 1.6s;
+          transition-delay: 1.6s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(33) {
+  -webkit-transition-delay: 1.65s;
+          transition-delay: 1.65s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(34) {
+  -webkit-transition-delay: 1.7s;
+          transition-delay: 1.7s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(35) {
+  -webkit-transition-delay: 1.75s;
+          transition-delay: 1.75s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(36) {
+  -webkit-transition-delay: 1.8s;
+          transition-delay: 1.8s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(37) {
+  -webkit-transition-delay: 1.85s;
+          transition-delay: 1.85s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(38) {
+  -webkit-transition-delay: 1.9s;
+          transition-delay: 1.9s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(39) {
+  -webkit-transition-delay: 1.95s;
+          transition-delay: 1.95s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(40) {
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(41) {
+  -webkit-transition-delay: 2.05s;
+          transition-delay: 2.05s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(42) {
+  -webkit-transition-delay: 2.1s;
+          transition-delay: 2.1s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(43) {
+  -webkit-transition-delay: 2.15s;
+          transition-delay: 2.15s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(44) {
+  -webkit-transition-delay: 2.2s;
+          transition-delay: 2.2s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(45) {
+  -webkit-transition-delay: 2.25s;
+          transition-delay: 2.25s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(46) {
+  -webkit-transition-delay: 2.3s;
+          transition-delay: 2.3s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(47) {
+  -webkit-transition-delay: 2.35s;
+          transition-delay: 2.35s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(48) {
+  -webkit-transition-delay: 2.4s;
+          transition-delay: 2.4s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(49) {
+  -webkit-transition-delay: 2.45s;
+          transition-delay: 2.45s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(50) {
+  -webkit-transition-delay: 2.5s;
+          transition-delay: 2.5s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(51) {
+  -webkit-transition-delay: 2.55s;
+          transition-delay: 2.55s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(52) {
+  -webkit-transition-delay: 2.6s;
+          transition-delay: 2.6s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(53) {
+  -webkit-transition-delay: 2.65s;
+          transition-delay: 2.65s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(54) {
+  -webkit-transition-delay: 2.7s;
+          transition-delay: 2.7s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(55) {
+  -webkit-transition-delay: 2.75s;
+          transition-delay: 2.75s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(56) {
+  -webkit-transition-delay: 2.8s;
+          transition-delay: 2.8s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(57) {
+  -webkit-transition-delay: 2.85s;
+          transition-delay: 2.85s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(58) {
+  -webkit-transition-delay: 2.9s;
+          transition-delay: 2.9s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(59) {
+  -webkit-transition-delay: 2.95s;
+          transition-delay: 2.95s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(60) {
+  -webkit-transition-delay: 3s;
+          transition-delay: 3s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(61) {
+  -webkit-transition-delay: 3.05s;
+          transition-delay: 3.05s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(62) {
+  -webkit-transition-delay: 3.1s;
+          transition-delay: 3.1s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(63) {
+  -webkit-transition-delay: 3.15s;
+          transition-delay: 3.15s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(64) {
+  -webkit-transition-delay: 3.2s;
+          transition-delay: 3.2s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(65) {
+  -webkit-transition-delay: 3.25s;
+          transition-delay: 3.25s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(66) {
+  -webkit-transition-delay: 3.3s;
+          transition-delay: 3.3s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(67) {
+  -webkit-transition-delay: 3.35s;
+          transition-delay: 3.35s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(68) {
+  -webkit-transition-delay: 3.4s;
+          transition-delay: 3.4s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(69) {
+  -webkit-transition-delay: 3.45s;
+          transition-delay: 3.45s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(70) {
+  -webkit-transition-delay: 3.5s;
+          transition-delay: 3.5s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(71) {
+  -webkit-transition-delay: 3.55s;
+          transition-delay: 3.55s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(72) {
+  -webkit-transition-delay: 3.6s;
+          transition-delay: 3.6s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(73) {
+  -webkit-transition-delay: 3.65s;
+          transition-delay: 3.65s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(74) {
+  -webkit-transition-delay: 3.7s;
+          transition-delay: 3.7s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(75) {
+  -webkit-transition-delay: 3.75s;
+          transition-delay: 3.75s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(76) {
+  -webkit-transition-delay: 3.8s;
+          transition-delay: 3.8s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(77) {
+  -webkit-transition-delay: 3.85s;
+          transition-delay: 3.85s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(78) {
+  -webkit-transition-delay: 3.9s;
+          transition-delay: 3.9s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(79) {
+  -webkit-transition-delay: 3.95s;
+          transition-delay: 3.95s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(80) {
+  -webkit-transition-delay: 4s;
+          transition-delay: 4s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(81) {
+  -webkit-transition-delay: 4.05s;
+          transition-delay: 4.05s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(82) {
+  -webkit-transition-delay: 4.1s;
+          transition-delay: 4.1s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(83) {
+  -webkit-transition-delay: 4.15s;
+          transition-delay: 4.15s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(84) {
+  -webkit-transition-delay: 4.2s;
+          transition-delay: 4.2s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(85) {
+  -webkit-transition-delay: 4.25s;
+          transition-delay: 4.25s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(86) {
+  -webkit-transition-delay: 4.3s;
+          transition-delay: 4.3s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(87) {
+  -webkit-transition-delay: 4.35s;
+          transition-delay: 4.35s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(88) {
+  -webkit-transition-delay: 4.4s;
+          transition-delay: 4.4s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(89) {
+  -webkit-transition-delay: 4.45s;
+          transition-delay: 4.45s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(90) {
+  -webkit-transition-delay: 4.5s;
+          transition-delay: 4.5s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(91) {
+  -webkit-transition-delay: 4.55s;
+          transition-delay: 4.55s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(92) {
+  -webkit-transition-delay: 4.6s;
+          transition-delay: 4.6s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(93) {
+  -webkit-transition-delay: 4.65s;
+          transition-delay: 4.65s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(94) {
+  -webkit-transition-delay: 4.7s;
+          transition-delay: 4.7s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(95) {
+  -webkit-transition-delay: 4.75s;
+          transition-delay: 4.75s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(96) {
+  -webkit-transition-delay: 4.8s;
+          transition-delay: 4.8s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(97) {
+  -webkit-transition-delay: 4.85s;
+          transition-delay: 4.85s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(98) {
+  -webkit-transition-delay: 4.9s;
+          transition-delay: 4.9s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(99) {
+  -webkit-transition-delay: 4.95s;
+          transition-delay: 4.95s;
+}
+
+.sect2 .content .contentTitle p span:nth-child(100) {
+  -webkit-transition-delay: 5s;
+          transition-delay: 5s;
+}
+
+.sect2 .content .contentTitle.on p span {
+  opacity: 1;
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+}
+
+.sect2 .content .contentTitle2 {
+  z-index: 1001;
+  position: absolute;
+  top: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sect2 .content .contentTitle2 p.small {
+  font-family: 'aktiv-grotesk', 'AppleSDGothicNeo', sans-serif;
+  margin-left: 24px;
+  -webkit-transform: translate(0%, 40%);
+          transform: translate(0%, 40%);
+  vertical-align: bottom;
+  font-size: 16px;
+}
+
+.sect2 .content .contentTitle2 p.roman {
+  font-style: italic;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.sect2 .content .contentTitle2 p span {
+  opacity: 0;
+  -webkit-transform: translate(0%, 30%);
+          transform: translate(0%, 30%);
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+  display: inline-block;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(1) {
+  -webkit-transition-delay: 0.32s;
+          transition-delay: 0.32s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(2) {
+  -webkit-transition-delay: 0.34s;
+          transition-delay: 0.34s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(3) {
+  -webkit-transition-delay: 0.36s;
+          transition-delay: 0.36s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(4) {
+  -webkit-transition-delay: 0.38s;
+          transition-delay: 0.38s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(5) {
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(6) {
+  -webkit-transition-delay: 0.42s;
+          transition-delay: 0.42s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(7) {
+  -webkit-transition-delay: 0.44s;
+          transition-delay: 0.44s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(8) {
+  -webkit-transition-delay: 0.46s;
+          transition-delay: 0.46s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(9) {
+  -webkit-transition-delay: 0.48s;
+          transition-delay: 0.48s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(10) {
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(11) {
+  -webkit-transition-delay: 0.52s;
+          transition-delay: 0.52s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(12) {
+  -webkit-transition-delay: 0.54s;
+          transition-delay: 0.54s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(13) {
+  -webkit-transition-delay: 0.56s;
+          transition-delay: 0.56s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(14) {
+  -webkit-transition-delay: 0.58s;
+          transition-delay: 0.58s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(15) {
+  -webkit-transition-delay: 0.6s;
+          transition-delay: 0.6s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(16) {
+  -webkit-transition-delay: 0.62s;
+          transition-delay: 0.62s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(17) {
+  -webkit-transition-delay: 0.64s;
+          transition-delay: 0.64s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(18) {
+  -webkit-transition-delay: 0.66s;
+          transition-delay: 0.66s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(19) {
+  -webkit-transition-delay: 0.68s;
+          transition-delay: 0.68s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(20) {
+  -webkit-transition-delay: 0.7s;
+          transition-delay: 0.7s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(21) {
+  -webkit-transition-delay: 0.72s;
+          transition-delay: 0.72s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(22) {
+  -webkit-transition-delay: 0.74s;
+          transition-delay: 0.74s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(23) {
+  -webkit-transition-delay: 0.76s;
+          transition-delay: 0.76s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(24) {
+  -webkit-transition-delay: 0.78s;
+          transition-delay: 0.78s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(25) {
+  -webkit-transition-delay: 0.8s;
+          transition-delay: 0.8s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(26) {
+  -webkit-transition-delay: 0.82s;
+          transition-delay: 0.82s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(27) {
+  -webkit-transition-delay: 0.84s;
+          transition-delay: 0.84s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(28) {
+  -webkit-transition-delay: 0.86s;
+          transition-delay: 0.86s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(29) {
+  -webkit-transition-delay: 0.88s;
+          transition-delay: 0.88s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(30) {
+  -webkit-transition-delay: 0.9s;
+          transition-delay: 0.9s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(31) {
+  -webkit-transition-delay: 0.92s;
+          transition-delay: 0.92s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(32) {
+  -webkit-transition-delay: 0.94s;
+          transition-delay: 0.94s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(33) {
+  -webkit-transition-delay: 0.96s;
+          transition-delay: 0.96s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(34) {
+  -webkit-transition-delay: 0.98s;
+          transition-delay: 0.98s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(35) {
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(36) {
+  -webkit-transition-delay: 1.02s;
+          transition-delay: 1.02s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(37) {
+  -webkit-transition-delay: 1.04s;
+          transition-delay: 1.04s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(38) {
+  -webkit-transition-delay: 1.06s;
+          transition-delay: 1.06s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(39) {
+  -webkit-transition-delay: 1.08s;
+          transition-delay: 1.08s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(40) {
+  -webkit-transition-delay: 1.1s;
+          transition-delay: 1.1s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(41) {
+  -webkit-transition-delay: 1.12s;
+          transition-delay: 1.12s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(42) {
+  -webkit-transition-delay: 1.14s;
+          transition-delay: 1.14s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(43) {
+  -webkit-transition-delay: 1.16s;
+          transition-delay: 1.16s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(44) {
+  -webkit-transition-delay: 1.18s;
+          transition-delay: 1.18s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(45) {
+  -webkit-transition-delay: 1.2s;
+          transition-delay: 1.2s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(46) {
+  -webkit-transition-delay: 1.22s;
+          transition-delay: 1.22s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(47) {
+  -webkit-transition-delay: 1.24s;
+          transition-delay: 1.24s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(48) {
+  -webkit-transition-delay: 1.26s;
+          transition-delay: 1.26s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(49) {
+  -webkit-transition-delay: 1.28s;
+          transition-delay: 1.28s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(50) {
+  -webkit-transition-delay: 1.3s;
+          transition-delay: 1.3s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(51) {
+  -webkit-transition-delay: 1.32s;
+          transition-delay: 1.32s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(52) {
+  -webkit-transition-delay: 1.34s;
+          transition-delay: 1.34s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(53) {
+  -webkit-transition-delay: 1.36s;
+          transition-delay: 1.36s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(54) {
+  -webkit-transition-delay: 1.38s;
+          transition-delay: 1.38s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(55) {
+  -webkit-transition-delay: 1.4s;
+          transition-delay: 1.4s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(56) {
+  -webkit-transition-delay: 1.42s;
+          transition-delay: 1.42s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(57) {
+  -webkit-transition-delay: 1.44s;
+          transition-delay: 1.44s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(58) {
+  -webkit-transition-delay: 1.46s;
+          transition-delay: 1.46s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(59) {
+  -webkit-transition-delay: 1.48s;
+          transition-delay: 1.48s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(60) {
+  -webkit-transition-delay: 1.5s;
+          transition-delay: 1.5s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(61) {
+  -webkit-transition-delay: 1.52s;
+          transition-delay: 1.52s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(62) {
+  -webkit-transition-delay: 1.54s;
+          transition-delay: 1.54s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(63) {
+  -webkit-transition-delay: 1.56s;
+          transition-delay: 1.56s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(64) {
+  -webkit-transition-delay: 1.58s;
+          transition-delay: 1.58s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(65) {
+  -webkit-transition-delay: 1.6s;
+          transition-delay: 1.6s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(66) {
+  -webkit-transition-delay: 1.62s;
+          transition-delay: 1.62s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(67) {
+  -webkit-transition-delay: 1.64s;
+          transition-delay: 1.64s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(68) {
+  -webkit-transition-delay: 1.66s;
+          transition-delay: 1.66s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(69) {
+  -webkit-transition-delay: 1.68s;
+          transition-delay: 1.68s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(70) {
+  -webkit-transition-delay: 1.7s;
+          transition-delay: 1.7s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(71) {
+  -webkit-transition-delay: 1.72s;
+          transition-delay: 1.72s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(72) {
+  -webkit-transition-delay: 1.74s;
+          transition-delay: 1.74s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(73) {
+  -webkit-transition-delay: 1.76s;
+          transition-delay: 1.76s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(74) {
+  -webkit-transition-delay: 1.78s;
+          transition-delay: 1.78s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(75) {
+  -webkit-transition-delay: 1.8s;
+          transition-delay: 1.8s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(76) {
+  -webkit-transition-delay: 1.82s;
+          transition-delay: 1.82s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(77) {
+  -webkit-transition-delay: 1.84s;
+          transition-delay: 1.84s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(78) {
+  -webkit-transition-delay: 1.86s;
+          transition-delay: 1.86s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(79) {
+  -webkit-transition-delay: 1.88s;
+          transition-delay: 1.88s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(80) {
+  -webkit-transition-delay: 1.9s;
+          transition-delay: 1.9s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(81) {
+  -webkit-transition-delay: 1.92s;
+          transition-delay: 1.92s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(82) {
+  -webkit-transition-delay: 1.94s;
+          transition-delay: 1.94s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(83) {
+  -webkit-transition-delay: 1.96s;
+          transition-delay: 1.96s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(84) {
+  -webkit-transition-delay: 1.98s;
+          transition-delay: 1.98s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(85) {
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(86) {
+  -webkit-transition-delay: 2.02s;
+          transition-delay: 2.02s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(87) {
+  -webkit-transition-delay: 2.04s;
+          transition-delay: 2.04s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(88) {
+  -webkit-transition-delay: 2.06s;
+          transition-delay: 2.06s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(89) {
+  -webkit-transition-delay: 2.08s;
+          transition-delay: 2.08s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(90) {
+  -webkit-transition-delay: 2.1s;
+          transition-delay: 2.1s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(91) {
+  -webkit-transition-delay: 2.12s;
+          transition-delay: 2.12s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(92) {
+  -webkit-transition-delay: 2.14s;
+          transition-delay: 2.14s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(93) {
+  -webkit-transition-delay: 2.16s;
+          transition-delay: 2.16s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(94) {
+  -webkit-transition-delay: 2.18s;
+          transition-delay: 2.18s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(95) {
+  -webkit-transition-delay: 2.2s;
+          transition-delay: 2.2s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(96) {
+  -webkit-transition-delay: 2.22s;
+          transition-delay: 2.22s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(97) {
+  -webkit-transition-delay: 2.24s;
+          transition-delay: 2.24s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(98) {
+  -webkit-transition-delay: 2.26s;
+          transition-delay: 2.26s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(99) {
+  -webkit-transition-delay: 2.28s;
+          transition-delay: 2.28s;
+}
+
+.sect2 .content .contentTitle2 p span:nth-child(100) {
+  -webkit-transition-delay: 2.3s;
+          transition-delay: 2.3s;
+}
+
+.sect2 .content .contentTitle2.on p span {
+  opacity: 1;
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+}
+
+.sect2 .content .contentThumb {
+  position: relative;
+  z-index: 1001;
+  width: 100%;
+  height: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+.sect2 .content .contentThumb .whiteTape {
+  -webkit-transition-duration: 0.9s;
+          transition-duration: 0.9s;
+  position: absolute;
+  width: 100%;
+  height: 101%;
+  bottom: 0;
+  background-color: #ffffff;
+  -webkit-transform: translate(0%, 0%) scaleY(1);
+          transform: translate(0%, 0%) scaleY(1);
+}
+
+.sect2 .content .contentThumb.on .whiteTape {
+  -webkit-transform: translate(0%, 50%) scaleY(0);
+          transform: translate(0%, 50%) scaleY(0);
+}
+
+.sect2 .content .textBox {
+  padding: 0 20px;
+  margin-top: 40px;
+  font-family: 'aktiv-grotesk', 'AppleSDGothicNeo', sans-serif;
+}
+
+.sect2 .content .textBox h3 {
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  opacity: 0;
+  -webkit-transform: translate(0%, 30%);
+          transform: translate(0%, 30%);
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+}
+
+.sect2 .content .textBox h3.on {
+  opacity: 1;
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+}
+
+.sect2 .content .textBox p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #999999;
+  opacity: 0;
+  -webkit-transform: translate(0%, 30%);
+          transform: translate(0%, 30%);
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+}
+
+.sect2 .content .textBox p.on {
+  opacity: 1;
+  -webkit-transform: translate(0%, 0%);
+          transform: translate(0%, 0%);
+}
+
+.sect2 .content:nth-child(1) .contentThumb {
+  background-image: url(/img/recruit_thumb1.jpg);
+}
+
+.sect2 .content:nth-child(2) .contentThumb {
+  background-image: url(/img/recruit_thumb2.jpg);
+}
+
+.sect2 .content:nth-child(3) .contentThumb {
+  background-image: url(/img/recruit_thumb3.jpg);
+}
+
+.sect2 .content:nth-child(4) .contentThumb {
+  background-image: url(/img/recruit_thumb4.jpg);
+}
+
+@media screen and (min-width: 700px) {
+  main {
+    padding: 80px 60px 23vh;
+  }
+  .guide-nav-bar {
+    top: 100px;
+    left: 60px;
+  }
+  .guide-nav-bar li p {
+    font-size: 14px;
+  }
+  .guide-nav-bar li:nth-child(1) p {
+    font-weight: 500;
+  }
+  h2 {
+    font-size: 80px;
+    margin-top: 80px;
+  }
+  .mainTitle .textBox .big {
+    font-size: 48px;
+    line-height: 52px;
+  }
+  .mainTitle .textBox .small {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .mainHeader {
+    margin-top: 90px;
+    margin-bottom: 310px;
+  }
+  .sect1 {
+    margin: 0px 0 280px;
+  }
+  .sect1 .row {
+    margin: 60px 0 100px;
+  }
+  .sect1 .intro {
+    font-size: 28px;
+    padding: 0 0 100px;
+  }
+  .sect1 .num {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .sect1 .big {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  .sect1 .small {
+    margin-bottom: 100px;
+    font-size: 18px;
+    line-height: 22px;
+    width: 70%;
+  }
+  .sect2 .content {
+    margin-top: 100px;
+  }
+  .sect2 .content .contentTitle {
+    margin-bottom: 22px;
+  }
+  .sect2 .content .contentTitle2 {
+    top: 55px;
+  }
+  .sect2 .content .contentTitle2 p.small {
+    margin-left: 24px;
+    font-size: 18px;
+  }
+  .sect2 .content .contentTitle2 p.roman {
+    font-size: 48px;
+  }
+  .sect2 .content .textBox {
+    padding: 0 20px;
+    margin-top: 40px;
+  }
+  .sect2 .content .textBox h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .sect2 .content .textBox p {
+    margin-top: 8px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  main {
+    padding: 80px 80px 23vh;
+  }
+  .guide-nav-bar {
+    top: 100px;
+    left: 80px;
+  }
+  .guide-nav-bar li p {
+    font-size: 14px;
+  }
+  .guide-nav-bar li:nth-child(1) p {
+    font-weight: 500;
+  }
+  h2 {
+    font-size: 80px;
+    margin-top: 80px;
+  }
+  .mainTitle .textBox .big {
+    font-size: 48px;
+    line-height: 52px;
+  }
+  .mainTitle .textBox .small {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .mainHeader {
+    margin-top: 90px;
+    margin-bottom: 310px;
+  }
+  .sect1 {
+    margin: 0px 0 280px;
+  }
+  .sect1 .row {
+    margin: 60px 0 100px;
+  }
+  .sect1 .intro {
+    font-size: 28px;
+    padding: 0 0 100px;
+  }
+  .sect1 .num {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .sect1 .big {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  .sect1 .small {
+    margin-bottom: 100px;
+    font-size: 18px;
+    line-height: 22px;
+    width: 70%;
+  }
+  .sect2 .content {
+    margin-top: 100px;
+  }
+  .sect2 .content .contentTitle {
+    margin-bottom: 22px;
+  }
+  .sect2 .content .contentTitle2 {
+    top: 55px;
+  }
+  .sect2 .content .contentTitle2 p.small {
+    margin-left: 24px;
+    font-size: 18px;
+  }
+  .sect2 .content .contentTitle2 p.roman {
+    font-size: 48px;
+  }
+  .sect2 .content .textBox {
+    padding: 0 20px;
+    margin-top: 40px;
+  }
+  .sect2 .content .textBox h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .sect2 .content .textBox p {
+    margin-top: 8px;
+    font-size: 18px;
+  }
+  .sect2 .content .contentThumb {
+    max-width: 700px;
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=recruit.css.map */

@@ -1,0 +1,10 @@
+/* .main .sect3 .sect3Wrap .classList .listExp .exp .expList > li{transform:translate(0,-0.5em);} */
+.main .sect3 .sect3Wrap .classList .listExp .exp .expList > li div {word-break: keep-all;}
+.main .sect3 .sect3Wrap .classList .listExp .exp .expList > li .fake,
+.main .sect3 .sect3Wrap .classList .listExp .exp .expList > li .real{line-height: 1.2em;}
+.main .sect3 .sect3Wrap .classList:nth-child(2) .listName .sandol span:nth-of-type(8){margin-right: 0;}
+
+.main .sect3 .sect3Wrap .classList{width: calc(100% / 3);}
+.main .sect3 .sect3Wrap .classList.on .listName .roman{transform: translate(0,-10%);}
+.main .sect3 .sect3Wrap .classList:nth-child(3) .listName .sandol span:nth-of-type(7){margin-right: 10px;}
+.main .sect3 .sect3Wrap .classList:nth-child(1) .listName .sandol span:nth-of-type(10){margin-right: 10px;}

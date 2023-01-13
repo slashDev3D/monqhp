@@ -1,0 +1,886 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-style: normal;
+  font-weight: 100;
+  src: url(../font/AppleSDGothicNeoT.woff2) format("woff2"), url(../font/AppleSDGothicNeoT.woff) format("woff"), url(../font/AppleSDGothicNeoT.otf) format("opentype");
+}
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-style: normal;
+  font-weight: 200;
+  src: url(../font/AppleSDGothicNeoUL.woff2) format("woff2"), url(../font/AppleSDGothicNeoUL.woff) format("woff"), url(../font/AppleSDGothicNeoUL.otf) format("opentype");
+}
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/AppleSDGothicNeoL.woff2) format("woff2"), url(../font/AppleSDGothicNeoL.woff) format("woff"), url(../font/AppleSDGothicNeoL.otf) format("opentype");
+}
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/AppleSDGothicNeoR.woff2) format("woff2"), url(../font/AppleSDGothicNeoR.woff) format("woff"), url(../font/AppleSDGothicNeoR.otf) format("opentype");
+}
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-style: normal;
+  font-weight: 500;
+  src: url(../font/AppleSDGothicNeoM.woff2) format("woff2"), url(../font/AppleSDGothicNeoM.woff) format("woff"), url(../font/AppleSDGothicNeoM.otf) format("opentype");
+}
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../font/AppleSDGothicNeoSB.woff2) format("woff2"), url(../font/AppleSDGothicNeoSB.woff) format("woff"), url(../font/AppleSDGothicNeoSB.otf) format("opentype");
+}
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../font/AppleSDGothicNeoB.woff2) format("woff2"), url(../font/AppleSDGothicNeoB.woff) format("woff"), url(../font/AppleSDGothicNeoB.otf) format("opentype");
+}
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-style: normal;
+  font-weight: 800;
+  src: url(../font/AppleSDGothicNeoEB.woff2) format("woff2"), url(../font/AppleSDGothicNeoEB.woff) format("woff"), url(../font/AppleSDGothicNeoEB.otf) format("opentype");
+}
+@font-face {
+  font-family: "AppleSDGothicNeo";
+  font-style: normal;
+  font-weight: 900;
+  src: url(../font/AppleSDGothicNeoH.woff2) format("woff2"), url(../font/AppleSDGothicNeoH.woff) format("woff"), url(../font/AppleSDGothicNeoH.otf) format("opentype");
+}
+/***********************/
+/***********************/
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 100;
+  src: url(../font/NotoSansKR-Thin.woff2) format("woff2"), url(../font/NotoSansKR-Thin.woff) format("woff"), url(../font/NotoSansKR-Thin.otf) format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 200;
+  src: url(../font/NotoSansKR-DemiLight.woff2) format("woff2"), url(../font/NotoSansKR-DemiLight.woff) format("woff"), url(../font/NotoSansKR-DemiLight.otf) format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/NotoSansKR-Light.woff2) format("woff2"), url(../font/NotoSansKR-Light.woff) format("woff"), url(../font/NotoSansKR-Light.otf) format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/NotoSansKR-Regular.woff2) format("woff2"), url(../font/NotoSansKR-Regular.woff) format("woff"), url(../font/NotoSansKR-Regular.otf) format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  src: url(../font/NotoSansKR-Medium.woff2) format("woff2"), url(../font/NotoSansKR-Medium.woff) format("woff"), url(../font/NotoSansKR-Medium.otf) format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 600;
+  src: url(../font/NotoSansKR-Bold.woff2) format("woff2"), url(../font/NotoSansKR-Bold.woff) format("woff"), url(../font/NotoSansKR-Bold.otf) format("opentype");
+}
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 900;
+  src: url(../font/NotoSansKR-Black.woff2) format("woff2"), url(../font/NotoSansKR-Black.woff) format("woff"), url(../font/NotoSansKR-Black.otf) format("opentype");
+}
+div.curtainCall div.curtain .border {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.scrollAnimation .bar {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.scrollAnimation .point {
+  background-color: rgb(0, 0, 0);
+}
+.scrollAnimation .ball {
+  color: #000000;
+}
+
+.link-language a {
+  color: rgba(0, 0, 0, 0.5);
+}
+.link-language a span {
+  background-color: #000000;
+}
+.link-language a.on {
+  color: #000000;
+}
+
+.link-portfolio a {
+  color: #000000;
+}
+
+.link-works a p {
+  color: #000000;
+}
+.link-works a svg .cls-1 {
+  fill: #000000;
+}
+
+aside.side .btn-ham .rel p {
+  color: #000000;
+}
+aside.side .btn-ham .rel span {
+  background-color: #000000;
+}
+aside.side .sns-btn svg .cls-1 {
+  fill: #000000;
+}
+aside.side ul.recruit-choice {
+  transition: 0.6s;
+  left: 0px;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 210px;
+}
+aside.side ul.recruit-choice li {
+  transition-duration: 0.3s;
+  font-family: "aktiv-grotesk", "AppleSDGothicNeo";
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+aside.side ul.recruit-choice li.on {
+  color: #c40c1a;
+}
+aside.side ul.recruit-choice li:nth-child(1) {
+  font-weight: 500;
+}
+aside.side ul.recruit-choice.on {
+  left: 40px;
+  opacity: 1;
+  pointer-events: unset;
+}
+
+.real {
+  position: absolute;
+  top: 0;
+}
+
+.faek {
+  opacity: 0;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.main .sect {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.main .sect1 {
+  transition-delay: 0.6s;
+  position: absolute;
+  top: -100%;
+}
+.main .sect1 .sect1Head {
+  color: #000;
+  overflow: hidden;
+  position: absolute;
+  top: 180px;
+  left: 16%;
+  font-size: clamp(52px, 5vw, 72px);
+  font-weight: 600;
+}
+.main .sect1 .sect1Head .real {
+  transform: translate(-101%, 0%);
+  transition-duration: 0.6s;
+  transition-delay: 0s;
+}
+.main .sect1 .textBox {
+  color: #000;
+  overflow: hidden;
+  position: absolute;
+  left: 16%;
+  top: 475px;
+}
+.main .sect1 .textBox .head {
+  font-size: 2.2vw;
+  position: relative;
+  font-family: "aktiv-grotesk", "AppleSDGothicNeo";
+  font-weight: 800;
+}
+.main .sect1 .textBox .head p {
+  margin-bottom: -0.6vw;
+  overflow: hidden;
+  position: relative;
+}
+.main .sect1 .textBox .head p span {
+  display: block;
+}
+.main .sect1 .textBox .head p .real {
+  transition-duration: 0.3s;
+  transform: translate(0%, 100%);
+}
+.main .sect1 .textBox .head p:nth-child(1) .real {
+  transition-delay: 0.1s;
+}
+.main .sect1 .textBox .head p:nth-child(2) .real {
+  transition-delay: 0.15s;
+}
+.main .sect1 .textBox .head p:nth-child(3) .real {
+  transition-delay: 0.2s;
+}
+.main .sect1 .textBox .exp {
+  margin-top: 38px;
+  font-size: clamp(16px, 0.8vw, 21px);
+  position: relative;
+  font-family: "aktiv-grotesk", "AppleSDGothicNeo";
+  line-height: clamp(14px, 2vw, 28px);
+  color: #999999;
+}
+.main .sect1 .textBox .exp .real {
+  transition-duration: 0.3s;
+  transition-delay: 0s;
+  transform: translate(0%, 100%);
+}
+.main .sect1 .photo {
+  position: absolute;
+  width: 52.5%;
+  padding-top: 35%;
+  top: 209px;
+  left: 40%;
+  overflow: hidden;
+}
+.main .sect1 .photo > div {
+  background: url(/img/recruit_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.main .sect1 .photo .real {
+  width: 100%;
+  height: 100%;
+  transition-duration: 0.6s;
+  transition-delay: 0s;
+  transform: translate(-101%, 0%);
+}
+.main .sect1.on {
+  top: 0%;
+}
+.main .sect1.on .sect1Head .real {
+  transform: translate(0%, 0%);
+  transition-duration: 0.6s;
+  transition-delay: 0.9s;
+}
+.main .sect1.on .textBox .head p .real {
+  transform: translate(0%, 0%);
+}
+.main .sect1.on .textBox .head p:nth-child(1) .real {
+  transition-delay: 1s;
+}
+.main .sect1.on .textBox .head p:nth-child(2) .real {
+  transition-delay: 1.05s;
+}
+.main .sect1.on .textBox .head p:nth-child(3) .real {
+  transition-delay: 1.1s;
+}
+.main .sect1.on .textBox .exp .real {
+  transition-duration: 0.3s;
+  transition-delay: 1.15s;
+  transform: translate(0%, 0%);
+}
+.main .sect1.on .photo .real {
+  transition-duration: 0.6s;
+  transition-delay: 1.2s;
+  transform: translate(0%, 0%);
+}
+.main .sect2 {
+  transition-delay: 0.6s;
+  position: absolute;
+  top: -100%;
+}
+.main .sect2 .sect2Head {
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  left: 17.5%;
+  top: 210px;
+  font-size: 1.9vw;
+  font-family: "aktiv-grotesk", "AppleSDGothicNeo";
+  font-weight: 800;
+}
+.main .sect2 .sect2Head .real {
+  transition-delay: 0s;
+  transition-duration: 0.6s;
+  transform: translate(-101%, 0%);
+}
+.main .sect2 .sect2title {
+  color: #000000;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  left: 16%;
+  top: 180px;
+  font-size: clamp(52px, 6.8vw, 72px);
+  font-family: "aktiv-grotesk", "AppleSDGothicNeo";
+  font-weight: 800;
+}
+.main .sect2 .sect2title .real {
+  transition-delay: 0s;
+  transition-duration: 0.6s;
+  transform: translate(-100%, 0%);
+}
+.main .sect2 .line-mid {
+  display: none;
+  transition-duration: 0.6s;
+  transition-delay: 0s;
+  position: absolute;
+  height: 3px;
+  background-color: #000;
+  width: 45%;
+  left: 32.5%;
+  top: 180px;
+  transform: translate(-50%, 0%) scaleX(0);
+}
+.main .sect2 .textBox {
+  display: flex;
+  position: absolute;
+  top: 368px;
+}
+.main .sect2 .textBox .num {
+  padding-top: 2px;
+  color: #c40c1a;
+  position: relative;
+  margin-right: 14px;
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+}
+.main .sect2 .textBox .num .one-num {
+  position: relative;
+  overflow: hidden;
+}
+.main .sect2 .textBox .num .one-num .real {
+  transition-delay: 0s;
+  transition-duration: 0.6s;
+  top: 0;
+  left: 0;
+  transform: translate(-100%, 0%);
+}
+.main .sect2 .textBox .num .one-num:nth-child(2) .real {
+  transition-delay: 0s;
+}
+.main .sect2 .textBox .step {
+  font-family: "aktiv-grotesk", "AppleSDGothicNeo";
+  position: relative;
+  overflow: hidden;
+  font-size: 25px;
+  font-weight: bold;
+}
+.main .sect2 .textBox .step .real {
+  top: 0;
+  left: 0;
+  transition-duration: 0.6s;
+  transform: translate(0%, 100%);
+}
+.main .sect2 .textBox .exp {
+  font-size: 15px;
+  margin-top: 24px;
+  font-family: "aktiv-grotesk", "AppleSDGothicNeo";
+}
+.main .sect2 .textBox .exp p {
+  margin-top: 12px;
+  position: relative;
+  overflow: hidden;
+}
+.main .sect2 .textBox .exp p .real {
+  left: 0;
+  top: 0;
+  transition-duration: 0.6s;
+  transform: translate(0%, 100%);
+}
+.main .sect2 .textBox .exp p:nth-of-type(3) {
+  margin-top: 4px;
+  color: #999999;
+}
+.main .sect2 .textBox .exp p:nth-of-type(4) {
+  margin-top: 4px;
+  color: #999999;
+}
+.main .sect2 .textBox .exp p:nth-child(1) .real {
+  transition-delay: 0.0769230769s;
+}
+.main .sect2 .textBox .exp p:nth-child(2) .real {
+  transition-delay: 0.1538461538s;
+}
+.main .sect2 .textBox .exp p:nth-child(3) .real {
+  transition-delay: 0.2307692308s;
+}
+.main .sect2 .textBox .exp p:nth-child(4) .real {
+  transition-delay: 0.3076923077s;
+}
+.main .sect2 .textBox1 {
+  left: 16%;
+}
+.main .sect2 .textBox2 {
+  left: 44.5%;
+}
+.main .sect2 .textBox3 {
+  left: 67%;
+}
+.main .sect2.on {
+  top: 0%;
+}
+.main .sect2.on .sect2Head .real {
+  transition-delay: 0.6s;
+  transform: translate(0%, 0%);
+}
+.main .sect2.on .sect2title .real {
+  transition-duration: 1.2s;
+  transition-delay: 0.6s;
+  transform: translate(0%, 0%);
+}
+.main .sect2.on .line-mid {
+  transition-delay: 0.75s;
+  transform: translate(0%, 0%) scaleX(1);
+}
+.main .sect2.on .textBox .num .one-num .real {
+  transition-delay: 0.8s;
+  transform: translate(0%, 0%);
+}
+.main .sect2.on .textBox .num .one-num:nth-child(2) .real {
+  transition-delay: 0.85s;
+}
+.main .sect2.on .textBox .step .real {
+  transition-delay: 0.9s;
+  transform: translate(0%, 0%);
+}
+.main .sect2.on .textBox .exp p .real {
+  transform: translate(0%, 0%);
+}
+.main .sect2.on .textBox .exp p:nth-child(1) .real {
+  transition-delay: 0.9769230769s;
+}
+.main .sect2.on .textBox .exp p:nth-child(2) .real {
+  transition-delay: 1.0538461538s;
+}
+.main .sect2.on .textBox .exp p:nth-child(3) .real {
+  transition-delay: 1.1307692308s;
+}
+.main .sect2.on .textBox .exp p:nth-child(4) .real {
+  transition-delay: 1.2076923077s;
+}
+.main .sect3 {
+  z-index: 9999;
+  transition-delay: 1.2s;
+  top: -100%;
+}
+.main .sect3 .sect3Wrap {
+  width: calc(100% - 160px);
+  height: 100%;
+  margin-left: 160px;
+  display: flex;
+}
+.main .sect3 .sect3Wrap .classList:nth-child(1) {
+  transition-delay: 0s;
+}
+.main .sect3 .sect3Wrap .classList:nth-child(1) .bgImg {
+  background: url(/img/recruit_thumb1.jpg);
+  background-position: top center;
+}
+.main .sect3 .sect3Wrap .classList:nth-child(1) .listName .sandol span:nth-of-type(10) {
+  margin-right: 20px;
+}
+.main .sect3 .sect3Wrap .classList:nth-child(2) {
+  transition-delay: 0.1s;
+}
+.main .sect3 .sect3Wrap .classList:nth-child(2) .bgImg {
+  background: url(/img/recruit_thumb2.jpg);
+  background-position: top center;
+}
+.main .sect3 .sect3Wrap .classList:nth-child(2) .listName .sandol span:nth-of-type(8) {
+  margin-right: 20px;
+}
+.main .sect3 .sect3Wrap .classList:nth-child(3) {
+  transition-delay: 0.2s;
+}
+.main .sect3 .sect3Wrap .classList:nth-child(3) .bgImg {
+  background: url(/img/recruit_thumb3.jpg);
+  background-position: top center;
+}
+.main .sect3 .sect3Wrap .classList:nth-child(3) .listName .sandol span:nth-of-type(10) {
+  margin-right: 20px;
+}
+.main .sect3 .sect3Wrap .classList:nth-child(4) {
+  transition-delay: 0.3s;
+}
+.main .sect3 .sect3Wrap .classList:nth-child(4) .bgImg {
+  background: url(/img/recruit_thumb4.jpg);
+  background-position: top center;
+  background-position: 63% center;
+}
+.main .sect3 .sect3Wrap .classList:nth-child(4) .listName .sandol span:nth-of-type(7) {
+  margin-right: 20px;
+}
+.main .sect3 .sect3Wrap .classList {
+  transition-duration: 0.9s;
+  transition-timing-function: cubic-bezier(0.68, 0.04, 0.25, 1);
+  transform: translate(0%, -101%);
+  position: relative;
+  width: 25%;
+}
+.main .sect3 .sect3Wrap .classList .bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.main .sect3 .sect3Wrap .classList .bg .bgImg {
+  background-size: cover;
+  filter: grayscale(100%);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.main .sect3 .sect3Wrap .classList .bg .blackFilter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transition-duration: 0.3s;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.main .sect3 .sect3Wrap .classList .listLine {
+  transition-timing-function: cubic-bezier(0.44, 0.11, 0.25, 1);
+  transition-duration: 0.6s;
+  background-color: #fff;
+  top: 210px;
+  left: -50%;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  transform: translate(0%, 0%) scaleX(0);
+}
+.main .sect3 .sect3Wrap .classList .listName {
+  display: flex;
+  position: absolute;
+  top: 280px;
+  left: 32px;
+  font-size: 2.2vw;
+  color: #fff;
+}
+.main .sect3 .sect3Wrap .classList .listName > div {
+  position: relative;
+  overflow: hidden;
+}
+.main .sect3 .sect3Wrap .classList .listName .sandol {
+  font-weight: 600;
+}
+.main .sect3 .sect3Wrap .classList .listName .roman {
+  padding: 0 12px 0 0;
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  opacity: 0;
+  transform: translate(0%, 30%);
+  transition-delay: 0s;
+  transition-duration: 0.3s;
+}
+.main .sect3 .sect3Wrap .classList .listName .real {
+  display: flex;
+}
+.main .sect3 .sect3Wrap .classList .listName .real span {
+  display: block;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transform: translate(0%, 100%);
+  opacity: 0;
+}
+.main .sect3 .sect3Wrap .classList .subject {
+  transition-duration: 0.3s;
+  transition-delay: 0s;
+  font-family: "aktiv-grotesk", "AppleSDGothicNeo";
+  display: inline-block;
+  font-size: 21px;
+  color: white;
+  margin-bottom: 40px;
+  font-weight: 800;
+  opacity: 0;
+  transform: translate(0%, 30%);
+}
+.main .sect3 .sect3Wrap .classList .listExp {
+  width: 100%;
+  padding-left: 32px;
+  position: absolute;
+  top: 422px;
+}
+.main .sect3 .sect3Wrap .classList .listExp .exp {
+  margin-bottom: 38px;
+  color: #fff;
+  display: flex;
+}
+.main .sect3 .sect3Wrap .classList .listExp .exp .expName {
+  font-family: "aktiv-grotesk", "AppleSDGothicNeo";
+  font-size: 16px;
+  font-weight: 800;
+  margin-right: 30px;
+}
+.main .sect3 .sect3Wrap .classList .listExp .exp .expName > div, .main .sect3 .sect3Wrap .classList .listExp .exp .expName > li, .main .sect3 .sect3Wrap .classList .listExp .exp .expList > div, .main .sect3 .sect3Wrap .classList .listExp .exp .expList > li {
+  overflow: hidden;
+  position: relative;
+}
+.main .sect3 .sect3Wrap .classList .listExp .exp .expName > div .real, .main .sect3 .sect3Wrap .classList .listExp .exp .expName > li .real, .main .sect3 .sect3Wrap .classList .listExp .exp .expList > div .real, .main .sect3 .sect3Wrap .classList .listExp .exp .expList > li .real {
+  opacity: 0;
+  transition-delay: 0s;
+  transition-duration: 0.3s;
+  transform: translate(0%, 100%);
+}
+.main .sect3 .sect3Wrap .classList .listExp .exp .expList > li {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 8px;
+  letter-spacing: -0.3px;
+  font-family: "aktiv-grotesk", "AppleSDGothicNeo";
+}
+.main .sect3 .sect3Wrap .classList .listExp .exp .expList > li .real {
+  line-height: 28px;
+}
+.main .sect3 .sect3Wrap .classList .listExp .exp .expList > li .fake {
+  line-height: 28px;
+}
+.main .sect3 .sect3Wrap .classList.on .bg .bgImg {
+  filter: grayscale(0%);
+}
+.main .sect3 .sect3Wrap .classList.on .bg .blackFilter {
+  filter: blur(0);
+  opacity: 0.6;
+}
+.main .sect3 .sect3Wrap .classList.on .listLine {
+  transition-duration: 0.9s;
+  transform: translate(50%, 0%) scaleX(1);
+}
+.main .sect3 .sect3Wrap .classList.on .listName .roman {
+  opacity: 1;
+  transform: translate(0%, 0%);
+  transition-delay: 0.3s;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real {
+  display: flex;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span {
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span:nth-child(1) {
+  transition-delay: 0.0285714286s;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span:nth-child(2) {
+  transition-delay: 0.0571428571s;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span:nth-child(3) {
+  transition-delay: 0.0857142857s;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span:nth-child(4) {
+  transition-delay: 0.1142857143s;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span:nth-child(5) {
+  transition-delay: 0.1428571429s;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span:nth-child(6) {
+  transition-delay: 0.1714285714s;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span:nth-child(7) {
+  transition-delay: 0.2s;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span:nth-child(8) {
+  transition-delay: 0.2285714286s;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span:nth-child(9) {
+  transition-delay: 0.2571428571s;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span:nth-child(10) {
+  transition-delay: 0.2857142857s;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span:nth-child(11) {
+  transition-delay: 0.3142857143s;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span:nth-child(12) {
+  transition-delay: 0.3428571429s;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span:nth-child(13) {
+  transition-delay: 0.3714285714s;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span:nth-child(14) {
+  transition-delay: 0.4s;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span:nth-child(15) {
+  transition-delay: 0.4285714286s;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span:nth-child(16) {
+  transition-delay: 0.4571428571s;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span:nth-child(17) {
+  transition-delay: 0.4857142857s;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span:nth-child(18) {
+  transition-delay: 0.5142857143s;
+}
+.main .sect3 .sect3Wrap .classList.on .listName .real span:nth-child(19) {
+  transition-delay: 0.5428571429s;
+}
+.main .sect3 .sect3Wrap .classList.on .subject {
+  transition-delay: 0.2s;
+  opacity: 1;
+  transform: translate(0%, 0%);
+}
+.main .sect3 .sect3Wrap .classList.on .listExp .exp .expName > div .real, .main .sect3 .sect3Wrap .classList.on .listExp .exp .expName > li .real, .main .sect3 .sect3Wrap .classList.on .listExp .exp .expList > div .real, .main .sect3 .sect3Wrap .classList.on .listExp .exp .expList > li .real {
+  opacity: 1;
+  transition-delay: 0.2s;
+  transform: translate(0%, 0%);
+}
+.main .sect3.on {
+  transition-delay: 0s;
+  top: 0%;
+}
+.main .sect3.on .sect3Wrap .classList:nth-child(1) {
+  transition-delay: 0.6s;
+}
+.main .sect3.on .sect3Wrap .classList:nth-child(2) {
+  transition-delay: 0.7s;
+}
+.main .sect3.on .sect3Wrap .classList:nth-child(3) {
+  transition-delay: 0.8s;
+}
+.main .sect3.on .sect3Wrap .classList:nth-child(4) {
+  transition-delay: 0.9s;
+}
+.main .sect3.on .sect3Wrap .classList {
+  transform: translate(0%, 0%);
+}
+
+@media screen and (min-width: 1380px) {
+  .main .sect1 .sect1Head {
+    top: 180px;
+    left: 17.5%;
+    font-size: clamp(52px, 6.8vw, 72px);
+  }
+  .main .sect1 .textBox {
+    left: 17.5%;
+    top: 475px;
+  }
+  .main .sect1 .textBox .head {
+    font-size: 2.2vw;
+  }
+  .main .sect1 .textBox .head p {
+    margin-bottom: -0.6vw;
+  }
+  .main .sect1 .textBox .exp {
+    margin-top: 38px;
+    font-size: clamp(16px, 0.8vw, 21px);
+    line-height: clamp(14px, 2vw, 28px);
+  }
+  .main .sect1 .photo {
+    width: 52.5%;
+    height: 64vh;
+    top: 209px;
+    left: 40%;
+  }
+  .main .sect2 .sect2Head {
+    left: 17.5%;
+    top: 210px;
+    font-size: 1.9vw;
+  }
+  .main .sect2 .sect2title {
+    left: 17.5%;
+    top: 180px;
+  }
+  .main .sect2 .line-mid {
+    height: 3px;
+    width: 45%;
+    left: 32.5%;
+    top: 180px;
+  }
+  .main .sect2 .textBox {
+    top: 468px;
+  }
+  .main .sect2 .textBox .num {
+    font-size: 16px;
+  }
+  .main .sect2 .textBox .step {
+    font-size: 25px;
+  }
+  .main .sect2 .textBox .exp {
+    font-size: 16px;
+    margin-top: 24px;
+  }
+  .main .sect2 .textBox .exp p {
+    margin-top: 12px;
+  }
+  .main .sect2 .textBox1 {
+    left: 17.5%;
+  }
+  .main .sect2 .textBox2 {
+    left: 40%;
+  }
+  .main .sect2 .textBox3 {
+    left: 62.5%;
+  }
+  .main .sect3 .sect3Wrap {
+    width: calc(100% - 160px);
+    height: 100%;
+    margin-left: 160px;
+  }
+  .main .sect3 .sect3Wrap .classList .listLine {
+    top: 210px;
+    left: -50%;
+    height: 3px;
+  }
+  .main .sect3 .sect3Wrap .classList .listName {
+    top: 280px;
+    left: 32px;
+    font-size: 2.2vw;
+  }
+  .main .sect3 .sect3Wrap .classList .listName .roman {
+    padding: 0 12px 0 0;
+  }
+  .main .sect3 .sect3Wrap .classList .listName .subject {
+    font-size: 18px;
+    margin-bottom: 2px;
+  }
+  .main .sect3 .sect3Wrap .classList .listExp {
+    padding-left: 32px;
+    top: 422px;
+  }
+  .main .sect3 .sect3Wrap .classList .listExp .exp {
+    margin-bottom: 38px;
+  }
+  .main .sect3 .sect3Wrap .classList .listExp .exp .expName {
+    font-size: 18px;
+  }
+  .main .sect3 .sect3Wrap .classList .listExp .exp .expList > li {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .main .sect3 .sect3Wrap .classList .listExp .exp .expList > li .real {
+    line-height: 28px;
+  }
+  .main .sect3 .sect3Wrap .classList .listExp .exp .expList > li .fake {
+    line-height: 28px;
+  }
+}/*# sourceMappingURL=recruit.css.map */

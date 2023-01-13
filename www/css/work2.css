@@ -1,0 +1,76 @@
+.background-container{background-color: #000;}
+.main .workContent .figure-container ul.figure-wrap li.figure-list{position: absolute;transition-timing-function: cubic-bezier(0.81, 0.02, 0.19, 0.97);}
+.main .workContent .figure-container ul.figure-wrap li.figure-list{transform:translate(200%,0)}
+.main .workContent .figure-container ul.figure-wrap li.figure-list.on{transform:translate(0%,0)}
+.main .workContent .figure-container ul.figure-wrap li.figure-list.next-next{transform:translate(200%,0)}
+.main .workContent .figure-container ul.figure-wrap li.figure-list.next{transform:translate(100%,0)}
+.main .workContent .figure-container ul.figure-wrap li.figure-list.prev{transform:translate(-100%,0)}
+.main .workContent .figure-container ul.figure-wrap li.figure-list.prev-prev{transform:translate(-200%,0)}
+
+.main .workContent .title-container .title-wrap .title-list{transform: translate(0,-10%);}
+.main .background-container .background-wrap .background-list{filter: blur(20px);background-size: cover;background-position: center center;background-repeat: no-repeat;}
+.main .workContent .title-container .title-wrap .title-list p{text-shadow: 0px 0px 4px rgba(0,0,0,0.5);}
+
+@keyframes wordRise {
+    0% {
+      -webkit-transform: translateY(48px);
+              transform: translateY(48px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+}
+.intro .introWrap .introTitle{width: 100%;}
+.intro .introWrap .introTitle .introTitleHead{font-size: 220px;}
+.intro .introWrap .introTitle .p0{
+    overflow: hidden;
+    position: relative;
+    color: white;
+    letter-spacing: -0.2px;
+    font-family: 'aktiv-grotesk', 'AppleSDGothicNeo';
+}
+.intro .introWrap .introTitle .p1 .real, .intro .introWrap .introTitle .p2 .real, .intro .introWrap .introTitle .p0 .real{
+    opacity: 0;
+    animation: 0.6s 0.6s wordRise forwards;
+}
+.intro .p0{font-size: 28px;color: #fff;}
+.intro .p0 b{font-family: 'Times New Roman', Times, serif;font-weight: lighter;font-style: italic;}
+
+.main .workContent .figure-container{position: relative;height: unset;width: 100%;}
+.main .workContent .figure-container ul.figure-wrap{position: relative;top: unset;left: unset;padding-top: 200px;padding-left: 32.5%;height: 100vh;}
+.main .workContent .figure-container ul.figure-wrap li.figure-list{}
+.main .workContent .title-container .title-wrap .title-list{width: 100%;}
+.main .workContent .title-container .title-wrap .title-list p.project-name{word-break: keep-all;}
+.main .workContent .title-container .title-wrap .title-list p.project-staff{font-size: 14px;font-weight: 500;color: rgba(255,255,255,0.8);margin: 24px 0 16px;}
+.main .workContent .title-container .title-wrap .title-list p.project-date{font-size: 15px;margin-top: 12px;}
+@media all and (max-width:1024px){
+    .main .workContent .figure-container ul.figure-wrap{padding-left: 16%;}
+    .main .workContent .figure-container ul.figure-wrap li.figure-list{width: 68%;}
+    .main .workContent .title-container .title-wrap .title-list p.project-name{font-size: 40px;width: 80%;line-height: 1.2;}
+    .main .workContent .title-container{bottom: 10vh;top: unset;}
+}
+@media all and (max-width:768px) {
+    .main .workContent .title-container .title-wrap .title-list p.project-name{font-size: 32px;}
+}
+
+.project-date,
+.project-staff,
+.project-member-pd,
+.project-member-cd{display: none !important;}
+
+
+.depth2Menu--wrap{overflow: hidden;}
+.depth2Menu--wrap .depth2Menu--link{transform: translate(-100%,0);transition-duration: 0.6s;}
+.depth2Menu--wrap.open .depth2Menu--link{transform: translate(0,0);}
+.depth2Menu--link a p{color: #fff;transition-duration: 0.3s;}
+.depth2Menu--link a:hover p{color: #c40c1a;}
+.depth2Menu--link-sub{color: #fff;margin-left: 10px;transition-duration: 0.3s;}
+.depth2Menu--link-sub:hover{color: #c40c1a;transform: translate(4px,0);}
+
+.depth2Menu--link-sub,
+.main .workContent .title-container .title-wrap .title-list.hide,
+.main .background-container .background-wrap .background-list.hide,
+.main .workContent .figure-container ul.figure-wrap li.figure-list.hide{display: none;}
